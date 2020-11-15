@@ -1,4 +1,5 @@
 # Team-Amazing
 
   As the new generation of consoles is among us, hundreds, if not thousands, of new (or remastered) games will be released in the coming years to keep gamers entertained. Our group is interested in using the ratings from popular websites for video game reviews for each genre of game on each of the current generation of platforms to predict the ratings of next generation’s games. 
+  
   Our project will focus on scraping [Metacritic](https://www.metacritic.com/), [IMDb](https://www.imdb.com/video-games/), [GameSpot](https://www.gamespot.com/) to obtain the data on the critic's review score, user review score (where applicable), title of the game, genre, and platform. Once we’ve gathered these data, we will build a linear regression model to predict the score of a genre. In our attempt to scrape these websites, we hope to obtain all of the data housed there, however we would like at least 1000 data points from each website should the entirety of the data on each of these sites may be too cumbersome to scrape.
