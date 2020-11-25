@@ -1,0 +1,910 @@
+,platform,genre,title,score
+0,                                        PC,real-time,Command & Conquer,94
+1,                                        iOS,real-time,Anomaly: Warzone Earth,94
+2,                                        PC,real-time,Company of Heroes,93
+3,                                        PC,real-time,Starcraft II: Wings of Liberty,93
+4,                                        PC,real-time,Homeworld,93
+5,                                        iOS,real-time,Twilight Struggle Mobile,93
+6,                                        iOS,real-time,Plants vs. Zombies HD,93
+7,                                        iOS,real-time,Plants vs. Zombies,92
+8,                                        PC,real-time,Warcraft III: Reign of Chaos,92
+9,                                        PC,real-time,Sid Meier's Gettysburg!,92
+10,                                        PC,real-time,Rome: Total War,92
+11,                                        PC,real-time,Age of Empires II: The Age of Kings,92
+12,                                        PC,real-time,Myth: The Fallen Lords,91
+13,                                        PC,real-time,Crusader Kings III,91
+14,                                        PC,real-time,Black & White,90
+15,                                        iOS,real-time,This War of Mine,90
+16,                                        GameCube,real-time,Pikmin 2,90
+17,                                        PC,real-time,Dota 2,90
+18,                                        PC,real-time,Empire: Total War,90
+19,                                        PC,real-time,Command & Conquer: Red Alert,90
+20,                                        PC,real-time,Age of Mythology,89
+21,                                        PC,real-time,Sacrifice,89
+22,                                        GameCube,real-time,Pikmin,89
+23,                                        Xbox 360,real-time,Plants vs. Zombies,89
+24,                                        PC,real-time,Homeworld: Cataclysm,89
+25,                                        PC,real-time,Combat Mission: Barbarossa to Berlin,89
+26,                                        PC,real-time,World in Conflict,89
+27,                                        iOS,real-time,Kingdom Rush,89
+28,                                        PC,real-time,Rise of Nations,89
+29,                                        iOS,real-time,Elf Defense Eng,89
+30,                                        PC,real-time,Medieval: Total War,88
+31,                                        PC,real-time,Crusader Kings II: The Old Gods,88
+32,                                        PC,real-time,Age of Empires II: The Conquerors Expansion,88
+33,                                        PC,real-time,Starcraft,88
+34,                                        PC,real-time,Warcraft III: The Frozen Throne,88
+35,                                        PC,real-time,Myth II: Soulblighter,88
+36,                                        iOS,real-time,Fieldrunners 2,88
+37,                                        PC,real-time,Medieval II: Total War,88
+38,                                        iOS,real-time,Kingdom Rush Vengeance,88
+39,                                        PC,real-time,Starcraft II: Legacy of the Void,88
+40,                                        PC,real-time,Rise of Nations: Thrones & Patriots,88
+41,                                        PC,real-time,Plants vs. Zombies,87
+42,                                        PC,real-time,Europa Universalis II,87
+43,                                        PC,real-time,RimWorld,87
+44,                                        PC,real-time,Sins of a Solar Empire,87
+45,                                        PC,real-time,Orcs Must Die! Unchained,87
+46,                                        3DS,real-time,Gotta Protectors,87
+47,                                        PC,real-time,Kohan: Immortal Sovereigns,87
+48,                                        Wii,real-time,Little King's Story,87
+49,                                        PC,real-time,Shogun: Total War Warlord Edition,87
+50,                                        PC,real-time,Company of Heroes: Opposing Fronts,87
+51,                                        PC,real-time,Europa Universalis IV,87
+52,                                        Wii U,real-time,Pikmin 3,87
+53,                                        PC,real-time,Total War: WARHAMMER II,87
+54,                                        iOS,real-time,Sentinel 3: Homeworld,87
+55,                                        PC,real-time,"Warhammer 40,000: Dawn of War - Dark Crusade",87
+56,                                        PC,real-time,Commandos 2: Men of Courage,87
+57,                                        PSP,real-time,PixelJunk Monsters Deluxe,86
+58,                                        PC,real-time,Supreme Commander,86
+59,                                        PC,real-time,Ground Control,86
+60,                                        PC,real-time,Total Annihilation,86
+61,                                        PC,real-time,Starcraft II: Heart of the Swarm,86
+62,                                        iOS,real-time,Anomaly 2,86
+63,                                        iOS,real-time,Company of Heroes,86
+64,                                        iOS,real-time,Plants vs Zombies 2: It's About Time,86
+65,                                        iOS,real-time,Anomaly Korea,86
+66,                                        PC,real-time,Europa Universalis III: Heir to the Throne,86
+67,                                        PC,real-time,"Warhammer 40,000: Dawn of War",86
+68,                                        iOS,real-time,Clash Royale,86
+69,                                        PC,real-time,Desperados III,86
+70,                                        PC,real-time,Command & Conquer: Red Alert 2 - Yuri's Revenge,86
+71,                                        PC,real-time,Heroes of the Storm,86
+72,                                        iOS,real-time,Door Kickers,86
+73,                                        iOS,real-time,Plants vs. Zombies Heroes,86
+74,                                        PlayStation 3,real-time,Plants vs. Zombies,85
+75,                                        iOS,real-time,Autumn Dynasty,85
+76,                                        PC,real-time,"Warhammer 40,000: Dawn of War II",85
+77,                                        PC,real-time,Battlerite,85
+78,                                        PC,real-time,Command & Conquer 3: Tiberium Wars,85
+79,                                        PC,real-time,Tropico,85
+80,                                        PC,real-time,Shadow Tactics: Blades of the Shogun,85
+81,                                        PC,real-time,Medieval II: Total War Kingdoms,85
+82,                                        iOS,real-time,AirStrike Defense,85
+83,                                        iOS,real-time,Kingdom Rush Frontiers,85
+84,                                        PC,real-time,"Warhammer 40,000: Dawn of War II - Chaos Rising",85
+85,                                        iOS,real-time,CastleStorm: Free to Siege,85
+86,                                        iOS,real-time,Unstoppable Gorg,85
+87,                                        PC,real-time,Total War: Three Kingdoms,85
+88,                                        Switch,real-time,Pikmin 3 Deluxe,85
+89,                                        PC,real-time,"Warhammer 40,000: Dawn of War - Winter Assault",85
+90,                                        Xbox One,real-time,Shadow Tactics: Blades of the Shogun,85
+91,                                        PC,real-time,Starcraft Remastered,85
+92,                                        PlayStation 4,real-time,Shadow Tactics: Blades of the Shogun,85
+93,                                        Xbox One,real-time,Desperados III,85
+94,                                        iOS,real-time,Bad North: Jotunn Edition,84
+95,                                        PC,real-time,Sid Meier's SimGolf,84
+96,                                        PC,real-time,Command & Conquer: Generals,84
+97,                                        iOS,real-time,Vainglory,84
+98,                                        PC,real-time,Shogun: Total War,84
+99,                                        PC,real-time,Command & Conquer: Red Alert 2,84
+100,                                        PC,real-time,Total War: WARHAMMER II - Rise of the Tomb Kings,84
+101,                                        PC,real-time,Europa Universalis IV: Wealth of Nations,84
+102,                                        PlayStation 4,real-time,Dungeon of the Endless,84
+103,                                        PC,real-time,Age of Mythology: The Titans,84
+104,                                        PC,real-time,Rise of Nations: Rise of Legends,84
+105,                                        PC,real-time,DEFCON: Everybody Dies,84
+106,                                        PC,real-time,Age of Empires II: Definitive Edition,84
+107,                                        PC,real-time,The Lord of the Rings: The Battle for Middle-Earth II,84
+108,                                        PC,real-time,Medieval: Total War - Viking Invasion,84
+109,                                        iOS,real-time,ROME: Total War,84
+110,                                        PlayStation Vita,real-time,PixelJunk Monsters: Ultimate HD,84
+111,                                        Xbox,real-time,Full Spectrum Warrior,84
+112,                                        PC,real-time,Darwinia,84
+113,                                        PC,real-time,Ultimate General: Gettysburg,84
+114,                                        PC,real-time,Anno 2070,83
+115,                                        PC,real-time,SMITE,83
+116,                                        PC,real-time,Homeworld 2,83
+117,                                        PC,real-time,Command & Conquer: Generals - Zero Hour,83
+118,                                        PlayStation 3,real-time,PixelJunk Monsters,83
+119,                                        PC,real-time,Orcs Must Die!,83
+120,                                        Xbox One,real-time,Port Royale 4,83
+121,                                        PC,real-time,This War of Mine,83
+122,                                        PC,real-time,Hearts of Iron II,83
+123,                                        PC,real-time,Total War: WARHAMMER II - Curse of the Vampire Coast,83
+124,                                        PC,real-time,Age of Empires,83
+125,                                        iOS,real-time,OTTTD,83
+126,                                        iOS,real-time,Sleep Attack TD,83
+127,                                        PC,real-time,Orcs Must Die! 2,83
+128,                                        iOS,real-time,iBomber Defense,83
+129,                                        iOS,real-time,Radiant Defense,83
+130,                                        iOS,real-time,Kingdom Rush Origins HD,83
+131,                                        PC,real-time,Steel Division: Normandy 44,83
+132,                                        PC,real-time,Hearts of Iron IV,83
+133,                                        PC,real-time,Door Kickers,83
+134,                                        iOS,real-time,Bardbarian,83
+135,                                        iOS,real-time,Tower Defense: Lost Earth,83
+136,                                        iOS,real-time,Dungeon of the Endless,83
+137,                                        PC,real-time,Stellaris: Synthetic Dawn,83
+138,                                        PC,real-time,One Step From Eden,83
+139,                                        Xbox 360,real-time,Defense Grid: The Awakening,82
+140,                                        PC,real-time,Dawn of Discovery,82
+141,                                        DS,real-time,Dawn of Discovery,82
+142,                                        PC,real-time,Act of War: Direct Action,82
+143,                                        Xbox 360,real-time,Iron Brigade,82
+144,                                        PlayStation 4,real-time,Desperados III,82
+145,                                        PC,real-time,Rome: Total War Barbarian Invasion,82
+146,                                        PlayStation 2,real-time,Ring of Red,82
+147,                                        PC,real-time,Warlords Battlecry II,82
+148,                                        iOS,real-time,Strikefleet Omega,82
+149,                                        PC,real-time,Stellaris: Utopia,82
+150,                                        PlayStation 4,real-time,Defender's Quest: Valley of the Forgotten DX Edition,82
+151,                                        iOS,real-time,Heroes and Castles,82
+152,                                        PC,real-time,Crusader Kings II,82
+153,                                        PC,real-time,Battle Realms,82
+154,                                        PC,real-time,Europa 1400: The Guild,82
+155,                                        PSP,real-time,Sid Meier's Pirates!,82
+156,                                        Xbox 360,real-time,Command & Conquer 3: Tiberium Wars,82
+157,                                        PC,real-time,Command & Conquer: Red Alert 3,82
+158,                                        Xbox 360,real-time,Halo Wars,82
+159,                                        PlayStation 3,real-time,PixelJunk Monsters Encore,82
+160,                                        PC,real-time,Celtic Kings: Rage of War,82
+161,                                        iOS,real-time,Anthill: Tactical Trail Defense,82
+162,                                        PC,real-time,The Lord of the Rings: The Battle for Middle-Earth,82
+163,                                        DS,real-time,Starship Defense,82
+164,                                        PlayStation 4,real-time,Orcs Must Die! Unchained,82
+165,                                        PC,real-time,Starships Unlimited: Divided Galaxies,81
+166,                                        PC,real-time,Airborne Assault: Highway to the Reich,81
+167,                                        PSP,real-time,Fieldrunners,81
+168,                                        PC,real-time,Supreme Commander: Forged Alliance,81
+169,                                        PC,real-time,Crusader Kings II: The Republic,81
+170,                                        Xbox One,real-time,Stellaris: Console Edition,81
+171,                                        PC,real-time,MORDHAU,81
+172,                                        PC,real-time,Age of Empires III,81
+173,                                        Xbox 360,real-time,Toy Soldiers: Cold War,81
+174,                                        Wii,real-time,Dawn of Discovery,81
+175,                                        PC,real-time,Ashes of the Singularity: Escalation,81
+176,                                        PC,real-time,Empires: Dawn of the Modern World,81
+177,                                        PC,real-time,Company of Heroes 2: Ardennes Assault,81
+178,                                        Xbox 360,real-time,Toy Soldiers,81
+179,                                        PC,real-time,DG2: Defense Grid 2,81
+180,                                        PC,real-time,Napoleon: Total War,81
+181,                                        PC,real-time,Stronghold,81
+182,                                        Xbox,real-time,Kingdom Under Fire: The Crusaders,81
+183,                                        iOS,real-time,Amoebattle,81
+184,                                        PC,real-time,Victoria II: Heart of Darkness,81
+185,                                        Xbox One,real-time,Awesomenauts Assemble!,81
+186,                                        PC,real-time,Vietnam '65,81
+187,                                        DS,real-time,Plants vs. Zombies,81
+188,                                        iOS,real-time,Dawn of Discovery - Harbor,81
+189,                                        DS,real-time,Final Fantasy XII: Revenant Wings,81
+190,                                        PC,real-time,Rails Across America,81
+191,                                        PC,real-time,Combat Mission 3: Afrika Korps,81
+192,                                        PC,real-time,Kohan II: Kings of War,81
+193,                                        PC,real-time,Darkest Hour: A Hearts of Iron Game,81
+194,                                        PC,real-time,Empire Earth,81
+195,                                        PC,real-time,Wargame: European Escalation,81
+196,                                        Xbox One,real-time,Halo Wars: Definitive Edition,81
+197,                                        PC,real-time,Age of Empires III: The Asian Dynasties,81
+198,                                        PC,real-time,Defense Grid: The Awakening,81
+199,                                        PC,real-time,"Codename: Panzers, Phase One",81
+200,                                        PC,real-time,Ghost Master,81
+201,                                        PC,real-time,Europa Universalis IV: Conquest of Paradise,81
+202,                                        iOS,real-time,Legend of Solgard,81
+203,                                        iOS,real-time,iBomber Defense Pacific,80
+204,                                        PC,real-time,Company of Heroes 2: The Western Front Armies,80
+205,                                        PC,real-time,Age of Empires III: The WarChiefs,80
+206,                                        PC,real-time,Crusader Kings II: Charlemagne,80
+207,                                        PC,real-time,Anomaly: Warzone Earth,80
+208,                                        PC,real-time,SpellForce 3: Soul Harvest,80
+209,                                        Dreamcast,real-time,Bomberman Online,80
+210,                                        PC,real-time,Hearts of Iron II: Doomsday,80
+211,                                        PC,real-time,"Codename: Panzers, Phase Two",80
+212,                                        PC,real-time,Full Spectrum Warrior,80
+213,                                        Xbox 360,real-time,Darwinia+,80
+214,                                        PC,real-time,AI War: Fleet Command,80
+215,                                        Nintendo 64,real-time,Starcraft 64,80
+216,                                        PC,real-time,Company of Heroes 2: The British Forces,80
+217,                                        PC,real-time,Ground Control II: Operation Exodus,80
+218,                                        PC,real-time,Company of Heroes 2,80
+219,                                        DS,real-time,Ninjatown,80
+220,                                        iOS,real-time,4Towers Onslaught: Combo TD,80
+221,                                        iOS,real-time,Lich Defense,80
+222,                                        PC,real-time,Crusader Kings II: Rajas of India,80
+223,                                        Switch,real-time,PixelJunk Monsters 2,80
+224,                                        PC,real-time,Total War: Three Kingdoms - The Furious Wild,80
+225,                                        PC,real-time,Dragonshard,80
+226,                                        Switch,real-time,This War of Mine: Complete Edition,80
+227,                                        PC,real-time,"Warhammer 40,000: Dawn of War II - Retribution",80
+228,                                        PC,real-time,Panzer Corps,80
+229,                                        PC,real-time,Tooth and Tail,80
+230,                                        PC,real-time,Men of War,80
+231,                                        PC,real-time,Sins of a Solar Empire: Entrenchment,80
+232,                                        DS,real-time,Lock's Quest,80
+233,                                        PC,real-time,Robin Hood: The Legend of Sherwood,80
+234,                                        PC,real-time,Wargame: AirLand Battle,80
+235,                                        PC,real-time,Total War: Attila,80
+236,                                        iOS,real-time,Anomaly Defenders,80
+237,                                        PC,real-time,Total War: Three Kingdoms - Mandate of Heaven,80
+238,                                        Xbox One,real-time,SMITE,80
+239,                                        PC,real-time,Total War: Three Kingdoms - A World Betrayed,80
+240,                                        PC,real-time,Empire Earth II,79
+241,                                        PC,real-time,Fractured Space,79
+242,                                        PC,real-time,Revenge of the Titans,79
+243,                                        PC,real-time,Dungeon of the Endless,79
+244,                                        PlayStation 4,real-time,Inversus,79
+245,                                        PC,real-time,Star Wars: Empire at War,79
+246,                                        PC,real-time,1701 A.D.,79
+247,                                        PC,real-time,Emperor: Battle for Dune,79
+248,                                        PC,real-time,Kohan: Ahriman's Gift,79
+249,                                        PlayStation 2,real-time,GrimGrimoire,79
+250,                                        Switch,real-time,Arena of Valor,79
+251,                                        PC,real-time,Bloodline Champions,79
+252,                                        Xbox 360,real-time,Orcs Must Die!,79
+253,                                        Xbox 360,real-time,The Lord of the Rings: The Battle for Middle-Earth II,79
+254,                                        PC,real-time,Rome: Total War Alexander,79
+255,                                        PC,real-time,Sins of a Solar Empire: Diplomacy,79
+256,                                        PC,real-time,King Arthur: The Role-Playing Wargame,79
+257,                                        PC,real-time,Close Combat: Invasion: Normandy,79
+258,                                        PC,real-time,Port Royale,79
+259,                                        iOS,real-time,Go Home Dinosaurs,79
+260,                                        iOS,real-time,Bloons TD 5,79
+261,                                        PlayStation 4,real-time,SMITE,79
+262,                                        PlayStation 3,real-time,Fat Princess,79
+263,                                        Xbox 360,real-time,Anomaly: Warzone Earth,79
+264,                                        Xbox One,real-time,8-Bit Armies,79
+265,                                        Xbox One,real-time,Halo Wars 2,79
+266,                                        PC,real-time,Homeworld: Deserts of Kharak,79
+267,                                        PC,real-time,Europa Universalis IV: Res Publica,79
+268,                                        Xbox One,real-time,DG2: Defense Grid 2,78
+269,                                        Xbox One,real-time,This War of Mine: The Little Ones,78
+270,                                        PC,real-time,Distant Worlds,78
+271,                                        PC,real-time,Stellaris,78
+272,                                        PlayStation 4,real-time,X-Morph: Defense,78
+273,                                        PC,real-time,Total War: Rome II - Rise of the Republic,78
+274,                                        DS,real-time,Robocalypse,78
+275,                                        PlayStation 4,real-time,Spacejacked,78
+276,                                        PC,real-time,League of Legends,78
+277,                                        Xbox One,real-time,Dungeon of the Endless,78
+278,                                        PC,real-time,Star Trek Starfleet Command: Orion Pirates,78
+279,                                        PC,real-time,Praetorians,78
+280,                                        Xbox,real-time,Kingdom Under Fire: Heroes,78
+281,                                        PC,real-time,Hearts of Iron: Platinum,78
+282,                                        PC,real-time,Brass Tactics,78
+283,                                        iOS,real-time,Siegecraft TD,78
+284,                                        PC,real-time,The Lord of the Rings: The Battle for Middle-Earth II - The Rise of the Witch-King,78
+285,                                        iOS,real-time,Transformers: Earth Wars,78
+286,                                        PC,real-time,Earth 2150,78
+287,                                        PC,real-time,Stronghold: Crusader,78
+288,                                        PC,real-time,Wargame: Red Dragon,78
+289,                                        PlayStation 4,real-time,This War of Mine: The Little Ones,78
+290,                                        Xbox 360,real-time,R.U.S.E.,78
+291,                                        PC,real-time,Austerlitz: Napoleon's Greatest Victory,78
+292,                                        PlayStation 3,real-time,Anomaly: Warzone Earth,78
+293,                                        PC,real-time,Awesomenauts,78
+294,                                        PC,real-time,Offworld Trading Company,78
+295,                                        iOS,real-time,Bloons TD Battles,78
+296,                                        PlayStation 4,real-time,Tooth and Tail,78
+297,                                        PC,real-time,Stellaris: Distant Stars,78
+298,                                        PC,real-time,Europa Universalis IV: Emperor,78
+299,                                        PC,real-time,Galactic Civilizations: Altarian Prophecy,77
+300,                                        PC,real-time,Ground Control: Dark Conspiracy,77
+301,                                        PC,real-time,Battlefleet Gothic: Armada 2,77
+302,                                        iOS,real-time,World of Warships Blitz,77
+303,                                        PC,real-time,Strange Adventures in Infinite Space,77
+304,                                        PC,real-time,They Are Billions,77
+305,                                        PC,real-time,Soldiers: Heroes of World War II,77
+306,                                        PlayStation 4,real-time,Stellaris: Console Edition,77
+307,                                        PC,real-time,Command & Conquer 3: Kane's Wrath,77
+308,                                        PC,real-time,Men of War: Assault Squad,77
+309,                                        PC,real-time,Arena Wars,77
+310,                                        PC,real-time,Anomaly 2,77
+311,                                        PC,real-time,Ancestors Legacy,77
+312,                                        PC,real-time,Universe at War: Earth Assault,77
+313,                                        iOS,real-time,Spacecom,77
+314,                                        PC,real-time,Interloper,77
+315,                                        PC,real-time,SpellForce 3: Fallen God,77
+316,                                        PC,real-time,Hearts of Iron III,77
+317,                                        PC,real-time,Nexus: The Jupiter Incident,77
+318,                                        PC,real-time,Supreme Commander 2,77
+319,                                        PC,real-time,Total War: Attila - Age of Charlemagne,77
+320,                                        PC,real-time,Battlefleet Gothic: Armada,77
+321,                                        PC,real-time,Knights of Honor,77
+322,                                        PC,real-time,MoonBase Commander,77
+323,                                        Xbox 360,real-time,Command & Conquer: Red Alert 3,77
+324,                                        Wii,real-time,New Play Control! Pikmin,77
+325,                                        Xbox 360,real-time,Tom Clancy's EndWar,77
+326,                                        PC,real-time,Starfleet Command Volume II: Empires at War,77
+327,                                        PC,real-time,Crusader Kings II: Sons of Abraham,77
+328,                                        PC,real-time,Grey Goo,77
+329,                                        PC,real-time,Perimeter,77
+330,                                        Game Boy Advance,real-time,Mech Platoon,77
+331,                                        PlayStation Vita,real-time,Plants vs. Zombies,77
+332,                                        PC,real-time,"Warhammer 40,000: Dawn of War III",77
+333,                                        PC,real-time,Dark Reign 2,77
+334,                                        PC,real-time,Men of War: Red Tide,77
+335,                                        Xbox 360,real-time,Awesomenauts,77
+336,                                        PlayStation 4,real-time,DG2: Defense Grid 2,77
+337,                                        iOS,real-time,Backyard Monsters: Unleashed,76
+338,                                        PC,real-time,Patrician II: Quest for Power,76
+339,                                        PC,real-time,Battlestations: Midway,76
+340,                                        PC,real-time,Heroes of Newerth,76
+341,                                        PlayStation 3,real-time,R.U.S.E.,76
+342,                                        PC,real-time,Frozen Synapse 2,76
+343,                                        iOS,real-time,Steampunk Tower,76
+344,                                        PC,real-time,Worbital,76
+345,                                        PC,real-time,Victoria II: A House Divided,76
+346,                                        PC,real-time,Master X Master,76
+347,                                        PC,real-time,Total War: Rome II,76
+348,                                        DS,real-time,Knights in the Nightmare,76
+349,                                        PC,real-time,Multiwinia: Survival of the Flattest,76
+350,                                        PC,real-time,American Conquest,76
+351,                                        iOS,real-time,Cursed Treasure 2,76
+352,                                        PC,real-time,Mushroom Wars 2,76
+353,                                        Switch,real-time,Masters of Anima,76
+354,                                        PC,real-time,Rush for Berlin,76
+355,                                        iOS,real-time,Jelly Defense,76
+356,                                        PC,real-time,Imperator: Rome,76
+357,                                        PC,real-time,R.U.S.E.,76
+358,                                        PC,real-time,Gigantic,76
+359,                                        iOS,real-time,Heroes and Castles 2,76
+360,                                        PC,real-time,Myth III: The Wolf Age,76
+361,                                        PlayStation 3,real-time,Tom Clancy's EndWar,76
+362,                                        Xbox 360,real-time,Age of Booty,76
+363,                                        Xbox 360,real-time,Battlestations: Pacific,76
+364,                                        PC,real-time,Demigod,76
+365,                                        PC,real-time,Super Monday Night Combat,76
+366,                                        Switch,real-time,Rocket Fist,76
+367,                                        PC,real-time,Victoria II,75
+368,                                        PC,real-time,A Total War Saga: Thrones of Britannia,75
+369,                                        PC,real-time,Space Colony,75
+370,                                        PC,real-time,Patrician III: Rise of the Hanse,75
+371,                                        PC,real-time,Space Run Galaxy,75
+372,                                        PC,real-time,Star Wars: Empire at War: Forces of Corruption,75
+373,                                        Wii,real-time,Battalion Wars 2,75
+374,                                        PC,real-time,Port Royale 2,75
+375,                                        PC,real-time,Satellite Reign,75
+376,                                        PC,real-time,Infested Planet,75
+377,                                        PSP,real-time,Knights in the Nightmare,75
+378,                                        PlayStation 3,real-time,Awesomenauts,75
+379,                                        PlayStation 3,real-time,Command & Conquer: Red Alert 3,75
+380,                                        PC,real-time,Age of Empires III: Definitive Edition,75
+381,                                        PC,real-time,Blitzkrieg 2,75
+382,                                        PC,real-time,Evil Genius,75
+383,                                        PC,real-time,Iron Harvest,75
+384,                                        iOS,real-time,Hills of Glory: WWII,75
+385,                                        PC,real-time,Atom Zombie Smasher,75
+386,                                        PC,real-time,Hegemonia: Legions of Iron,75
+387,                                        Xbox 360,real-time,Supreme Commander 2,75
+388,                                        PC,real-time,Napoleon: Total War - The Peninsular Campaign,75
+389,                                        Wii U,real-time,Zombie Defense,75
+390,                                        Switch,real-time,X-Morph: Defense,75
+391,                                        PC,real-time,Stellaris: MegaCorp,75
+392,                                        Switch,real-time,Dungeon of the Endless,75
+393,                                        PC,real-time,Black & White 2,75
+394,                                        PC,real-time,Star Wars Galactic Battlegrounds,75
+395,                                        PC,real-time,PeaceMaker,75
+396,                                        PC,real-time,BattleForge,75
+397,                                        PlayStation 2,real-time,Kessen,75
+398,                                        PC,real-time,Iron Brigade,75
+399,                                        PC,real-time,Blitzkrieg: Burning Horizon,75
+400,                                        Xbox 360,real-time,Command & Conquer 3: Kane's Wrath,75
+401,                                        PC,real-time,A Total War Saga: TROY,75
+402,                                        PC,real-time,Sol Survivor,75
+403,                                        PlayStation 3,real-time,Guardians of Middle-Earth,75
+404,                                        PC,real-time,Total War: Arena,75
+405,                                        PlayStation 4,real-time,Anomaly 2,74
+406,                                        PC,real-time,Battlestations: Pacific,74
+407,                                        PlayStation 4,real-time,Awesomenauts Assemble!,74
+408,                                        PC,real-time,SpellForce: The Order of Dawn,74
+409,                                        PC,real-time,Space Colony (Steam Edition),74
+410,                                        PC,real-time,Bad North,74
+411,                                        PlayStation 4,real-time,Masters of Anima,74
+412,                                        PC,real-time,Take Command: 2nd Manassas,74
+413,                                        PlayStation 3,real-time,Age of Booty,74
+414,                                        PSP,real-time,Fat Princess: Fistful of Cake,74
+415,                                        PC,real-time,Blitzkrieg (2003),74
+416,                                        PC,real-time,Stellar Impact,74
+417,                                        Xbox One,real-time,Masters of Anima,74
+418,                                        PC,real-time,Partisans 1941,74
+419,                                        PC,real-time,Total Annihilation: Kingdoms,74
+420,                                        PC,real-time,Worms 3D,74
+421,                                        PlayStation 4,real-time,Ancestors Legacy,74
+422,                                        Xbox One,real-time,Gigantic,74
+423,                                        PC,real-time,1503 A.D. - The New World,74
+424,                                        iOS,real-time,Dead Stop,74
+425,                                        PC,real-time,Dawn of Man,74
+426,                                        PlayStation 2,real-time,Full Spectrum Warrior,74
+427,                                        PC,real-time,Cossacks: European Wars,74
+428,                                        Wii U,real-time,Star Fox Guard,74
+429,                                        iOS,real-time,Clash of Clans,74
+430,                                        PC,real-time,Ceres,74
+431,                                        Switch,real-time,One Step From Eden,74
+432,                                        PC,real-time,Stellaris: Federations,74
+433,                                        PC,real-time,Act of War: High Treason,74
+434,                                        PC,real-time,Nemesis of the Roman Empire,74
+435,                                        PC,real-time,Tin Soldiers: Julius Caesar,74
+436,                                        iOS,real-time,Z The Game,74
+437,                                        iOS,real-time,Army of Darkness Defense,74
+438,                                        PC,real-time,Cossacks: The Art of War,74
+439,                                        PC,real-time,Forts,74
+440,                                        PlayStation 2,real-time,Kessen III,73
+441,                                        Switch,real-time,Defense Grid 2,73
+442,                                        PC,real-time,Fieldrunners 2,73
+443,                                        iOS,real-time,Freak Tower,73
+444,                                        Stadia,real-time,Orcs Must Die! 3,73
+445,                                        iOS,real-time,Galcon Legends,73
+446,                                        PC,real-time,Cossacks II: Napoleonic Wars,73
+447,                                        DS,real-time,Viking Invasion,73
+448,                                        Switch,real-time,Kingdom Rush Frontiers,73
+449,                                        PlayStation 3,real-time,Savage Moon,73
+450,                                        PC,real-time,Space Run,73
+451,                                        PC,real-time,Warrior Kings,73
+452,                                        PC,real-time,Total War: WARHAMMER II - The Queen & the Crone,73
+453,                                        Xbox 360,real-time,Battlestations: Midway,73
+454,                                        PC,real-time,Treasure Planet: Battle at Procyon,73
+455,                                        PC,real-time,War Front: Turning Point,73
+456,                                        PC,real-time,Warhammer: Mark of Chaos,73
+457,                                        PC,real-time,Blitzkrieg: Rolling Thunder,73
+458,                                        PC,real-time,Impossible Creatures Steam Edition,73
+459,                                        PlayStation 4,real-time,No Heroes Allowed! VR,73
+460,                                        PC,real-time,StarCraft II: Nova Covert Ops - Mission Pack 1,73
+461,                                        iOS,real-time,"Warhammer 40,000: Armageddon",73
+462,                                        Xbox One,real-time,They Are Billions,73
+463,                                        PC,real-time,Crusader Kings,73
+464,                                        Wii U,real-time,PixelJunk Monsters,73
+465,                                        PC,real-time,Steel Division 2,73
+466,                                        PC,real-time,Time of Defiance,73
+467,                                        PC,real-time,SpellForce 3,73
+468,                                        PC,real-time,Soldiers of Anarchy,73
+469,                                        PC,real-time,"Warhammer 40,000: Dawn of War - Soulstorm",73
+470,                                        PC,real-time,Earth 2160,73
+471,                                        Wii,real-time,Final Fantasy Crystal Chronicles: My Life as a Darklord,73
+472,                                        PC,real-time,Unstoppable Gorg,73
+473,                                        Xbox One,real-time,Sudden Strike 4: European Battlefields Edition,73
+474,                                        PC,real-time,Stellaris: Apocalypse,73
+475,                                        PC,real-time,Warlords Battlecry III,73
+476,                                        iOS,real-time,Demon Tribe,73
+477,                                        iOS,real-time,Titanfall: Assault,73
+478,                                        iOS,real-time,Command & Conquer: Red Alert,72
+479,                                        Switch,real-time,Mushroom Wars 2,72
+480,                                        PC,real-time,Impossible Creatures,72
+481,                                        Xbox One,real-time,Ancestors Legacy,72
+482,                                        PC,real-time,Grand Ages: Rome,72
+483,                                        PlayStation 4,real-time,CastleStorm: Virtual Reality,72
+484,                                        PC,real-time,Commandos 3: Destination Berlin,72
+485,                                        Xbox,real-time,Magic: The Gathering - Battlegrounds,72
+486,                                        PC,real-time,Aarklash: Legacy,72
+487,                                        PC,real-time,Renowned Explorers: International Society,72
+488,                                        iOS,real-time,Tiny Defense,72
+489,                                        PC,real-time,Hearts of Iron,72
+490,                                        PlayStation 4,real-time,PixelJunk Monsters 2,72
+491,                                        PC,real-time,World in Conflict: Soviet Assault,72
+492,                                        PC,real-time,Judgment: Apocalypse Survival Simulation,72
+493,                                        Xbox 360,real-time,South Park Let's Go Tower Defense Play!,72
+494,                                        PC,real-time,"Warhammer 40,000: Regicide",72
+495,                                        iOS,real-time,Machines at War 3,72
+496,                                        PC,real-time,Perimeter: Emperor's Testament,72
+497,                                        PlayStation 4,real-time,They Are Billions,72
+498,                                        PC,real-time,Black & White: Creature Isle,72
+499,                                        PC,real-time,The Gladiators: The Galactic Circus Games,72
+500,                                        PC,real-time,Cannon Brawl,72
+501,                                        iOS,real-time,Defense Technica,72
+502,                                        iOS,real-time,Devouring Stars,72
+503,                                        Switch,real-time,Bad North,72
+504,                                        PC,real-time,Kingdoms and Castles,72
+505,                                        Xbox 360,real-time,Command & Conquer: Red Alert 3 - Commander's Challenge,72
+506,                                        PC,real-time,PixelJunk Monsters: Ultimate,72
+507,                                        PC,real-time,Star Wars Galactic Battlegrounds: Clone Campaigns,71
+508,                                        iOS,real-time,Human Defense,71
+509,                                        PC,real-time,Battle Realms: Winter of the Wolf,71
+510,                                        PC,real-time,Magic & Mayhem: The Art of Magic,71
+511,                                        PC,real-time,UFO: Afterlight,71
+512,                                        PC,real-time,March of the Eagles,71
+513,                                        DS,real-time,SteamWorld Tower Defense,71
+514,                                        PC,real-time,Toy Soldiers,71
+515,                                        PlayStation 2,real-time,Kessen II,71
+516,                                        Xbox One,real-time,"Warhammer 40,000: Inquisitor - Martyr",71
+517,                                        iOS,real-time,Command & Conquer Rivals,71
+518,                                        PC,real-time,"Warhammer 40,000: Gladius - Relics of War",71
+519,                                        iOS,real-time,BioDefense: Zombie Outbreak,71
+520,                                        GameCube,real-time,Goblin Commander: Unleash the Horde,71
+521,                                        PC,real-time,World War III: Black Gold,71
+522,                                        Xbox 360,real-time,Guardians of Middle-Earth,71
+523,                                        PlayStation 2,real-time,Full Spectrum Warrior: Ten Hammers,71
+524,                                        PC,real-time,The Kings' Crusade,71
+525,                                        PC,real-time,Act of Aggression,71
+526,                                        Xbox One,real-time,Starpoint Gemini 2,71
+527,                                        PC,real-time,Fate of the Dragon,71
+528,                                        PC,real-time,Masters of Anima,71
+529,                                        PC,real-time,ParaWorld,71
+530,                                        Xbox,real-time,Goblin Commander: Unleash the Horde,70
+531,                                        PlayStation 4,real-time,Sheltered,70
+532,                                        PC,real-time,Age of Empires Online,70
+533,                                        PC,real-time,Company of Heroes: Tales of Valor,70
+534,                                        PC,real-time,Desert Rats vs. Afrika Korps,70
+535,                                        PC,real-time,StarDrive 2,70
+536,                                        PlayStation Vita,real-time,New Little King's Story,70
+537,                                        PC,real-time,Warstone TD,70
+538,                                        PC,real-time,No Man's Land,70
+539,                                        PlayStation 2,real-time,Nobunaga's Ambition: Rise to Power,70
+540,                                        PC,real-time,Order of War: Challenge,70
+541,                                        iOS,real-time,Fantasy Conflict,70
+542,                                        PC,real-time,Poltergeist: A Pixelated Horror,70
+543,                                        PlayStation 4,real-time,8-Bit Armies,70
+544,                                        Switch,real-time,Ancestors Legacy,70
+545,                                        PC,real-time,Halo Wars 2,70
+546,                                        PC,real-time,Steel Soldiers,70
+547,                                        PC,real-time,Full Spectrum Warrior: Ten Hammers,70
+548,                                        PC,real-time,Anomaly Defenders,70
+549,                                        PC,real-time,Starpoint Gemini 2,70
+550,                                        PC,real-time,Taur,70
+551,                                        PC,real-time,Sudden Strike 4,70
+552,                                        PC,real-time,Sengoku,70
+553,                                        PC,real-time,World War II: Frontline Command,70
+554,                                        DS,real-time,Dairojo! Samurai Defenders,70
+555,                                        PC,real-time,Age of Sail II: Privateer's Bounty,69
+556,                                        Xbox,real-time,Full Spectrum Warrior: Ten Hammers,69
+557,                                        iOS,real-time,Two Worlds II Castle Defense,69
+558,                                        PC,real-time,Ashes of the Singularity,69
+559,                                        PC,real-time,Age of Empires: Definitive Edition,69
+560,                                        PlayStation 4,real-time,Korix,69
+561,                                        PC,real-time,"Warhammer 40,000: Sanctus Reach",69
+562,                                        PC,real-time,Black & White 2 - Battle of the Gods,69
+563,                                        PC,real-time,Freaking Meatbags,69
+564,                                        PlayStation 3,real-time,Under Siege,69
+565,                                        PlayStation 3,real-time,Military Madness: Nectaris,69
+566,                                        iOS,real-time,Metal Slug Defense,69
+567,                                        Wii,real-time,Military Madness: Nectaris,69
+568,                                        DS,real-time,Tom Clancy's EndWar,69
+569,                                        Xbox One,real-time,Lock's Quest,69
+570,                                        DS,real-time,Blue Dragon Plus,69
+571,                                        PC,real-time,Star Hammer: The Vanguard Prophecy,69
+572,                                        PC,real-time,Tannenberg,69
+573,                                        PC,real-time,Chaos League: Sudden Death,69
+574,                                        PC,real-time,Order of War,69
+575,                                        Xbox One,real-time,Sheltered,69
+576,                                        iOS,real-time,Boom Beach,69
+577,                                        iOS,real-time,Bloons TD 4,69
+578,                                        PC,real-time,Imperial Glory,69
+579,                                        PC,real-time,Armies of Exigo,69
+580,                                        PC,real-time,Cossacks II: Battle for Europe,69
+581,                                        PC,real-time,Submarine Titans,69
+582,                                        PC,real-time,Bloodsports.TV,69
+583,                                        PC,real-time,8-Bit Armies,69
+584,                                        PC,real-time,Joint Task Force,68
+585,                                        PC,real-time,Tom Clancy's EndWar,68
+586,                                        PC,real-time,Empires Apart,68
+587,                                        PC,real-time,Metal Fatigue,68
+588,                                        PC,real-time,O.R.B.,68
+589,                                        PC,real-time,Magic: The Gathering - Battlegrounds,68
+590,                                        DS,real-time,Amoebattle,68
+591,                                        PC,real-time,Shad'O,68
+592,                                        PC,real-time,Beware Planet Earth!,68
+593,                                        PC,real-time,Drone Swarm,68
+594,                                        PC,real-time,Infinite Crisis,68
+595,                                        PlayStation 2,real-time,Goblin Commander: Unleash the Horde,68
+596,                                        PC,real-time,Men of War: Assault Squad 2,68
+597,                                        PC,real-time,"Warhammer 40,000: Armageddon",68
+598,                                        PlayStation 2,real-time,Army Men: RTS,68
+599,                                        PC,real-time,Commander: Conquest of the Americas,68
+600,                                        PSP,real-time,Tom Clancy's EndWar,68
+601,                                        PC,real-time,Blitzkrieg 3,68
+602,                                        PC,real-time,SPACECOM,68
+603,                                        iOS,real-time,Hills and Rivers Remain,68
+604,                                        PC,real-time,Starship Troopers: Terran Ascendancy,68
+605,                                        PC,real-time,Age of Empires II: HD Edition,68
+606,                                        PC,real-time,Battlezone: Combat Commander,68
+607,                                        PC,real-time,Cubemen 2,68
+608,                                        PC,real-time,Sudden Strike II,68
+609,                                        PC,real-time,Squad Assault: West Front,68
+610,                                        PlayStation 4,real-time,Numantia,68
+611,                                        PSP,real-time,Zombie Tycoon,68
+612,                                        PC,real-time,Men of War: Vietnam,68
+613,                                        iOS,real-time,GemCraft,68
+614,                                        PlayStation 4,real-time,The Castle Game,68
+615,                                        PC,real-time,Spacejacked,68
+616,                                        3DS,real-time,Toy Defense,68
+617,                                        PC,real-time,Siege of Centauri,68
+618,                                        Xbox One,real-time,Raiders of the Broken Planet,67
+619,                                        PC,real-time,Army Men: RTS,67
+620,                                        PC,real-time,Port Royale 4,67
+621,                                        PC,real-time,Oil Rush,67
+622,                                        PC,real-time,The Lord of the Rings: War of the Ring,67
+623,                                        Xbox,real-time,Commandos 2: Men of Courage,67
+624,                                        PC,real-time,Patrician IV: Rise of a Dynasty,67
+625,                                        iOS,real-time,Total War Battles: KINGDOM,67
+626,                                        PlayStation 4,real-time,Port Royale 4,67
+627,                                        PC,real-time,UFO: Aftershock,67
+628,                                        PC,real-time,Codename Panzers: Cold War,67
+629,                                        Wii,real-time,Defendin' DePenguin,67
+630,                                        PC,real-time,Total War: Three Kingdoms - Eight Princes,67
+631,                                        PC,real-time,"Warhammer 40,000: Inquisitor - Martyr",67
+632,                                        iOS,real-time,Cubemen2,67
+633,                                        PC,real-time,Champions of Anteria,67
+634,                                        PlayStation 2,real-time,Commandos 2: Men of Courage,67
+635,                                        PC,real-time,Project Earth: Starmageddon,67
+636,                                        PC,real-time,Help Will Come Tomorrow,67
+637,                                        PC,real-time,Earth 2150: Lost Souls,67
+638,                                        iOS,real-time,Raid Leader,67
+639,                                        PC,real-time,Pacific Storm,67
+640,                                        PC,real-time,Faces of War,67
+641,                                        PC,real-time,Age of Mythology: Extended Edition,66
+642,                                        PC,real-time,Far Gate,66
+643,                                        PC,real-time,Theatre of War,66
+644,                                        PC,real-time,Desperados 2: Cooper's Revenge,66
+645,                                        PlayStation 2,real-time,Aliens Versus Predator: Extinction,66
+646,                                        PC,real-time,Total Tank Simulator,66
+647,                                        Xbox 360,real-time,Universe at War: Earth Assault,66
+648,                                        PC,real-time,Patrician IV: Conquest by Trade,66
+649,                                        PC,real-time,Hegemony: Philip of Macedon,66
+650,                                        PC,real-time,American Conquest: Fight Back,66
+651,                                        PC,real-time,Medieval Conquest,66
+652,                                        DS,real-time,Heroes of Mana,66
+653,                                        PC,real-time,Stronghold: Crusader II,65
+654,                                        DS,real-time,LEGO Battles,65
+655,                                        PC,real-time,Hearts of Iron III: Semper Fi,65
+656,                                        Xbox 360,real-time,Military Madness: Nectaris,65
+657,                                        PC,real-time,Hinterland,65
+658,                                        PC,real-time,Squad Assault: Second Wave,65
+659,                                        PC,real-time,Heroes of Annihilated Empires,65
+660,                                        PC,real-time,"I, Zombie",65
+661,                                        PlayStation 4,real-time,Alchemic Jousts,65
+662,                                        PC,real-time,Crusader Kings II: Jade Dragon,65
+663,                                        Switch,real-time,Anthill,65
+664,                                        Wii,real-time,Defend Your Castle,65
+665,                                        PlayStation 4,real-time,"Warhammer 40,000: Inquisitor - Martyr",65
+666,                                        PlayStation 3,real-time,Tears to Tiara II: Heir of the Overlord,65
+667,                                        PC,real-time,Warhammer: Mark of Chaos - Battle March,65
+668,                                        PC,real-time,Axis & Allies,65
+669,                                        PlayStation 4,real-time,Ray's the Dead,65
+670,                                        PC,real-time,"War, the Game",65
+671,                                        Xbox One,real-time,Bad North,65
+672,                                        PC,real-time,S.W.I.N.E.,65
+673,                                        PC,real-time,Lords of the Realm III,65
+674,                                        PC,real-time,War for the Overworld,65
+675,                                        PC,real-time,Naval War: Arctic Circle,64
+676,                                        PC,real-time,Star Trek Away Team,64
+677,                                        PC,real-time,Rise & Fall: Civilizations at War,64
+678,                                        PC,real-time,Warrior Kings: Battles,64
+679,                                        PC,real-time,Command & Conquer: Red Alert 3 - Uprising,64
+680,                                        iOS,real-time,Command & Conquer: Red Alert for iPad,64
+681,                                        PlayStation 4,real-time,Grand Ages: Medieval,64
+682,                                        Xbox One,real-time,Kaiju Panic,64
+683,                                        PC,real-time,Star Trek: Deep Space Nine: Dominion Wars,64
+684,                                        PC,real-time,Command & Conquer 4: Tiberian Twilight,64
+685,                                        Xbox,real-time,Aliens Versus Predator: Extinction,64
+686,                                        PC,real-time,Officers,64
+687,                                        Switch,real-time,"I, Zombie",64
+688,                                        PSP,real-time,Star Trek: Tactical Assault,64
+689,                                        Wii U,real-time,Cubemen 2,63
+690,                                        iOS,real-time,Fury of the Gods,63
+691,                                        PC,real-time,Theatre of War 2: Africa 1943,63
+692,                                        PC,real-time,WorldShift,63
+693,                                        PC,real-time,Imperium Romanum,63
+694,                                        iOS,real-time,The Witcher Battle Arena,63
+695,                                        PC,real-time,Empire Earth: The Art of Conquest,63
+696,                                        PC,real-time,The Guild 2: Pirates of the High Seas,63
+697,                                        PC,real-time,Grand Ages: Medieval,63
+698,                                        PC,real-time,Hearts of Iron IV: Together for Victory,63
+699,                                        PlayStation 4,real-time,8-Bit Hordes,63
+700,                                        Switch,real-time,Samurai Defender: Ninja Warfare,63
+701,                                        PC,real-time,Stronghold 2,63
+702,                                        PC,real-time,Total War: Rome II - Caesar in Gaul,63
+703,                                        DS,real-time,Star Trek: Tactical Assault,63
+704,                                        PlayStation 4,real-time,Siegecraft Commander,63
+705,                                        PC,real-time,Once Upon a Knight,63
+706,                                        Xbox One,real-time,McDROID,63
+707,                                        PC,real-time,First Battalion,63
+708,                                        PC,real-time,Gangland,63
+709,                                        PC,real-time,Cossacks 3,63
+710,                                        PC,real-time,Defense Technica,63
+711,                                        PC,real-time,Crush Your Enemies,63
+712,                                        PC,real-time,Sudden Strike 3: Arms for Victory,63
+713,                                        PC,real-time,Conflicks - Revolutionary Space Battles,63
+714,                                        PlayStation 4,real-time,Sudden Strike 4,63
+715,                                        PlayStation 4,real-time,Pop-Up Pilgrims,63
+716,                                        PC,real-time,Sheltered,62
+717,                                        PC,real-time,Republic: The Revolution,62
+718,                                        PC,real-time,Total War: Rome II - Empire Divided,62
+719,                                        PC,real-time,XIII Century: Death or Glory,62
+720,                                        iOS,real-time,Galcon 2: Galactic Conquest,62
+721,                                        PC,real-time,Little King's Story,62
+722,                                        PC,real-time,Planetary Annihilation,62
+723,                                        PC,real-time,Conan Unconquered,62
+724,                                        PC,real-time,Diggles,62
+725,                                        PC,real-time,Northland,62
+726,                                        PC,real-time,Project Nomads,62
+727,                                        PC,real-time,Kingdom Under Fire II,62
+728,                                        PC,real-time,Etherium,62
+729,                                        PC,real-time,Warparty,62
+730,                                        PC,real-time,Lords of EverQuest,62
+731,                                        PC,real-time,Jagged Alliance: Back in Action,62
+732,                                        Xbox One,real-time,Hero Defense,62
+733,                                        PC,real-time,Breach & Clear: Deadline,62
+734,                                        PC,real-time,Europa Universalis: Crown of the North,61
+735,                                        PC,real-time,World War II: Panzer Claws,61
+736,                                        Switch,real-time,Sheltered,61
+737,                                        PC,real-time,The Guild 2,61
+738,                                        PC,real-time,Nexagon: Deathmatch,61
+739,                                        PC,real-time,StarDrive,61
+740,                                        PC,real-time,BCT Commander,61
+741,                                        PC,real-time,Original War,61
+742,                                        PC,real-time,Dogs of War,61
+743,                                        Wii,real-time,Robocalypse: Beaver Defense,61
+744,                                        Xbox One,real-time,Siegecraft Commander,61
+745,                                        PC,real-time,Pacific Storm: Allies,60
+746,                                        PC,real-time,Starvoid,60
+747,                                        PC,real-time,Dragon Throne: Battle of Red Cliffs,60
+748,                                        PC,real-time,We Are The Dwarves,60
+749,                                        PC,real-time,Reign: Conflict of Nations,60
+750,                                        iOS,real-time,A Knights Dawn,60
+751,                                        Xbox One,real-time,We Are The Dwarves,60
+752,                                        PC,real-time,Kingdom Under Fire: The Crusaders,60
+753,                                        PC,real-time,Cossacks: Back to War,60
+754,                                        PC,real-time,Commandos 2 HD Remaster,60
+755,                                        PC,real-time,Carrier Command: Gaea Mission,60
+756,                                        PC,real-time,Ancient Wars: Sparta,59
+757,                                        PC,real-time,Empire of the Ants,59
+758,                                        PC,real-time,Warcraft III: Reforged,59
+759,                                        PlayStation 4,real-time,There Came an Echo,59
+760,                                        PC,real-time,Conflict Zone,59
+761,                                        PC,real-time,Dark Planet: Battle for Natrolis,59
+762,                                        PC,real-time,Dawn of Fantasy,59
+763,                                        DS,real-time,LEGO Battles: Ninjago,59
+764,                                        PC,real-time,Cuban Missile Crisis: The Aftermath,59
+765,                                        PC,real-time,Tower Wars,59
+766,                                        PC,real-time,Outlive,59
+767,                                        PC,real-time,Kingdom Under Fire: A War of Heroes,59
+768,                                        iOS,real-time,Star Wars: Galactic Defense,58
+769,                                        PC,real-time,Mars or Die!,58
+770,                                        PC,real-time,Defenders of Ardania,58
+771,                                        PC,real-time,Clockwork Empires,58
+772,                                        PC,real-time,Wildfire (2004),58
+773,                                        PC,real-time,Takeda,58
+774,                                        PC,real-time,Victoria: An Empire Under the Sun,58
+775,                                        PC,real-time,Emergency 3,58
+776,                                        PC,real-time,There Came an Echo,58
+777,                                        PC,real-time,Highland Warriors,58
+778,                                        PC,real-time,Maelstrom (2007),58
+779,                                        PC,real-time,Prime World: Defenders,58
+780,                                        iOS,real-time,"Warhammer 40,000: Storm of Vengeance",58
+781,                                        PC,real-time,Frontline: Fields of Thunder,57
+782,                                        PC,real-time,Empire Earth II: The Art of Supremacy,57
+783,                                        PC,real-time,The Partners,57
+784,                                        PC,real-time,Genesis Rising: The Universal Crusade,57
+785,                                        PlayStation 4,real-time,McDROID,57
+786,                                        PC,real-time,Numantia,57
+787,                                        PC,real-time,Stronghold Legends,57
+788,                                        PlayStation Vita,real-time,Army Corps of Hell,57
+789,                                        PC,real-time,Men of War: Condemned Heroes,57
+790,                                        PlayStation 4,real-time,Aegis of Earth: Protonovus Assault,57
+791,                                        PC,real-time,Moscow to Berlin: Red Siege,57
+792,                                        iOS,real-time,Dragon Storm,57
+793,                                        PC,real-time,WWI: The Great War,57
+794,                                        Xbox 360,real-time,Guilty Gear 2: Overture,56
+795,                                        PC,real-time,D-Day,56
+796,                                        PC,real-time,Guardians of Middle-Earth,56
+797,                                        PlayStation 4,real-time,Raiders of the Broken Planet,56
+798,                                        PC,real-time,Micro Commandos,56
+799,                                        Xbox 360,real-time,Port Royale 3: Pirates and Merchants,56
+800,                                        PC,real-time,Besieger,56
+801,                                        PC,real-time,Praetorians HD Remaster,56
+802,                                        PC,real-time,The Outforce,56
+803,                                        Xbox 360,real-time,Supreme Commander,56
+804,                                        PC,real-time,Alexander,56
+805,                                        PC,real-time,Korea: Forgotten Conflict,56
+806,                                        PC,real-time,Meridian: Squad 22,56
+807,                                        DS,real-time,Eco-Creatures: Save the Forest,55
+808,                                        PC,real-time,Blitzkrieg II: Fall of the Reich,55
+809,                                        3DS,real-time,Monster Combine TD,55
+810,                                        PlayStation 4,real-time,Praetorians HD Remaster,55
+811,                                        Xbox 360,real-time,Warhammer: Battle March,55
+812,                                        PC,real-time,Re-Legion,55
+813,                                        Dreamcast,real-time,Conflict Zone,55
+814,                                        PC,real-time,Defenders of Time,55
+815,                                        PC,real-time,Cold War Conflicts,55
+816,                                        PC,real-time,King Arthur: Fallen Champions,54
+817,                                        PlayStation 4,real-time,The Tomorrow Children,54
+818,                                        PC,real-time,Port Royale 3: Pirates and Merchants,54
+819,                                        PC,real-time,Real War: Rogue States,54
+820,                                        PC,real-time,Achron,54
+821,                                        PlayStation 4,real-time,GUNS UP!,54
+822,                                        PC,real-time,Rise of Immortals: Battle for Graxia,54
+823,                                        PC,real-time,The Golden Horde,54
+824,                                        PC,real-time,Raiders of the Broken Planet,54
+825,                                        PC,real-time,Siegecraft Commander,53
+826,                                        PC,real-time,American Conquest: Divided Nation,53
+827,                                        PC,real-time,War Times,53
+828,                                        PlayStation 2,real-time,The Adventures of Darwin,53
+829,                                        PC,real-time,Thandor: The Invasion,53
+830,                                        PC,real-time,Two Thrones,53
+831,                                        PC,real-time,Gemini Wars,53
+832,                                        PC,real-time,A Game of Thrones: Genesis,53
+833,                                        Xbox One,real-time,Constructor,53
+834,                                        Xbox One,real-time,Pixel Piracy,53
+835,                                        PlayStation 4,real-time,Throw Anything,53
+836,                                        Wii,real-time,Ant Nation,52
+837,                                        Wii,real-time,Lead the Meerkats,52
+838,                                        PC,real-time,Realpolitiks,52
+839,                                        Xbox 360,real-time,Defenders of Ardania,52
+840,                                        PC,real-time,Great War Nations: The Spartans,52
+841,                                        PC,real-time,SuperPower 2,51
+842,                                        iOS,real-time,Fieldrunners Attack!,51
+843,                                        PC,real-time,BANNERMEN,51
+844,                                        PlayStation 3,real-time,Stormrise,51
+845,                                        PC,real-time,Starport Delta,51
+846,                                        PC,real-time,Confrontation,51
+847,                                        iOS,real-time,Alien Creeps TD,51
+848,                                        PC,real-time,Empire Earth III,50
+849,                                        PC,real-time,Trapped Dead,50
+850,                                        PlayStation 4,real-time,Krinkle Krusher,50
+851,                                        iOS,real-time,Cosmonautica,50
+852,                                        PC,real-time,Tryst,50
+853,                                        PC,real-time,America,50
+854,                                        PlayStation 4,real-time,Pixel Piracy,50
+855,                                        PlayStation 4,real-time,Lock's Quest,50
+856,                                        PC,real-time,Elements of War,49
+857,                                        DS,real-time,Digimon World Championship,49
+858,                                        PC,real-time,Theatre of War 3: Korea,49
+859,                                        PC,real-time,Platoon: The 1st Airborne Cavalry Division in Vietnam,49
+860,                                        PC,real-time,The Guild 2: Venice,49
+861,                                        PC,real-time,Cannon Fodder 3,49
+862,                                        Switch,real-time,Riot: Civil Unrest,48
+863,                                        PC,real-time,APOX,48
+864,                                        Xbox 360,real-time,Stormrise,48
+865,                                        PC,real-time,Real War,48
+866,                                        Switch,real-time,Yet Another Zombie Defense HD,48
+867,                                        PlayStation 4,real-time,Dog Duty,48
+868,                                        3DS,real-time,Cocoro: Line Defender,47
+869,                                        PC,real-time,Rebels: Prison Escape,47
+870,                                        PC,real-time,Stronghold 3,47
+871,                                        PlayStation 2,real-time,Conflict Zone,47
+872,                                        PC,real-time,Line Of Defense Tactics - Tactical Advantage,47
+873,                                        PlayStation 4,real-time,League of War: VR Arena,46
+874,                                        PC,real-time,The History Channel: Great Battles of Rome,46
+875,                                        Xbox 360,real-time,Carrier Command: Gaea Mission,46
+876,                                        PC,real-time,Gladiators of Rome,46
+877,                                        PC,real-time,Dreamlords,46
+878,                                        PC,real-time,Frozen Hearth,46
+879,                                        PC,real-time,Starpoint Gemini,46
+880,                                        Xbox One,real-time,Yet Another Zombie Defense HD,45
+881,                                        PC,real-time,Stronghold: Crusader Extreme,45
+882,                                        Switch,real-time,Warparty,45
+883,                                        PC,real-time,Cops 2170: The Power of Law,44
+884,                                        GameCube,real-time,Yu-Gi-Oh! The Falsebound Kingdom,44
+885,                                        PC,real-time,Cortex Command,44
+886,                                        PC,real-time,SunAge,44
+887,                                        PC,real-time,Meridian: New World,43
+888,                                        PC,real-time,Perimeter II: New Earth,43
+889,                                        PlayStation 4,real-time,Riot: Civil Unrest,43
+890,                                        PlayStation 4,real-time,Spuds Unearthed,43
+891,                                        PC,real-time,Alliance: Future Combat,43
+892,                                        PC,real-time,Will of Steel,43
+893,                                        PC,real-time,Dragons and Titans,43
+894,                                        PC,real-time,Stormrise,42
+895,                                        iOS,real-time,Dungeon Keeper,42
+896,                                        PC,real-time,Stranger,42
+897,                                        PC,real-time,Shattered Suns,41
+898,                                        PC,real-time,Men of War: Assault Squad 2 - Cold War,41
+899,                                        PC,real-time,G.I. Combat,38
+900,                                        PC,real-time,Seven Kingdoms: Conquest,38
+901,                                        PC,real-time,Left Behind: Eternal Forces,38
+902,                                        DS,real-time,Real Time Conflict: Shogun Empires,35
+903,                                        PC,real-time,"Warhammer 40,000: Storm of Vengeance",33
+904,                                        PC,real-time,Demonworld: Dark Armies,33
+905,                                        PC,real-time,Raven's Cry,27
+906,                                        PC,real-time,Fray,27
+907,                                        PC,real-time,Stalin vs. Martians,25
+908,                                        PC,real-time,Citadels,20
