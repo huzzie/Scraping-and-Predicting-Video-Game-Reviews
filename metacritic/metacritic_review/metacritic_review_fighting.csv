@@ -1,0 +1,525 @@
+,platform,genre,title,score
+0,                                        Dreamcast,fighting,SoulCalibur,98
+1,                                        PlayStation,fighting,Tekken 3,96
+2,                                        PlayStation 3,fighting,Street Fighter IV,94
+3,                                        PlayStation 2,fighting,Virtua Fighter 4,94
+4,                                        Wii,fighting,Super Smash Bros. Brawl,93
+5,                                        PlayStation,fighting,Street Fighter Alpha 3,93
+6,                                        Xbox 360,fighting,Street Fighter IV,93
+7,                                        GameCube,fighting,SoulCalibur II,93
+8,                                        PlayStation 2,fighting,Virtua Fighter 4: Evolution,93
+9,                                        PlayStation 2,fighting,SoulCalibur II,92
+10,                                        PlayStation 3,fighting,Super Street Fighter IV,92
+11,                                        GameCube,fighting,Super Smash Bros. Melee,92
+12,                                        Xbox,fighting,SoulCalibur II,92
+13,                                        Wii U,fighting,Super Smash Bros. for Wii U,92
+14,                                        Xbox 360,fighting,Super Street Fighter IV,91
+15,                                        PlayStation 2,fighting,DOA2: Hardcore,91
+16,                                        PC,fighting,Street Fighter IV,91
+17,                                        Dreamcast,fighting,Marvel vs. Capcom 2,90
+18,                                        PlayStation,fighting,WWF SmackDown! 2: Know Your Role,90
+19,                                        PlayStation,fighting,Tekken 2,89
+20,                                        Nintendo 64,fighting,WWF No Mercy,89
+21,                                        iOS,fighting,Infinity Blade II,89
+22,                                        Xbox 360,fighting,Virtua Fighter 5 Online,89
+23,                                        Dreamcast,fighting,Ultimate Fighting Championship,88
+24,                                        PlayStation 2,fighting,Tekken 5,88
+25,                                        Xbox 360,fighting,Super Street Fighter II Turbo HD Remix,88
+26,                                        Xbox 360,fighting,Mortal Kombat Komplete Edition,88
+27,                                        PSP,fighting,Tekken: Dark Resurrection,88
+28,                                        PlayStation 3,fighting,Super Street Fighter II Turbo HD Remix,87
+29,                                        PlayStation 3,fighting,BlazBlue: Calamity Trigger,87
+30,                                        Dreamcast,fighting,Power Stone 2,87
+31,                                        iOS,fighting,Infinity Blade,87
+32,                                        Xbox,fighting,Dead or Alive 3,87
+33,                                        PlayStation 3,fighting,BlazBlue: Continuum Shift,87
+34,                                        PlayStation 2,fighting,Guilty Gear X2,87
+35,                                        PlayStation 3,fighting,UFC Undisputed 3,86
+36,                                        Xbox 360,fighting,BlazBlue: Calamity Trigger,86
+37,                                        Xbox,fighting,Guilty Gear X2 #Reload,86
+38,                                        Xbox 360,fighting,Mortal Kombat,86
+39,                                        PlayStation 2,fighting,SoulCalibur III,86
+40,                                        Xbox 360,fighting,Street Fighter III: Third Strike Online Edition,86
+41,                                        PlayStation 3,fighting,Street Fighter III: Third Strike Online Edition,86
+42,                                        Dreamcast,fighting,Fatal Fury: Mark of the Wolves,86
+43,                                        PlayStation 3,fighting,Persona 4 Arena,86
+44,                                        PlayStation 3,fighting,UFC Undisputed 2010,85
+45,                                        Wii,fighting,Tatsunoko vs. Capcom: Ultimate All-Stars,85
+46,                                        3DS,fighting,Super Street Fighter IV: 3D Edition,85
+47,                                        PlayStation 2,fighting,Tekken Tag Tournament,85
+48,                                        Xbox 360,fighting,BlazBlue: Continuum Shift,85
+49,                                        Xbox 360,fighting,Dead or Alive 4,85
+50,                                        PlayStation 3,fighting,SoulCalibur IV,85
+51,                                        Xbox 360,fighting,SoulCalibur IV,85
+52,                                        3DS,fighting,Super Smash Bros. for Nintendo 3DS,85
+53,                                        PlayStation 2,fighting,WWE SmackDown! Here Comes the Pain,85
+54,                                        Xbox 360,fighting,Marvel vs. Capcom 3: Fate of Two Worlds,85
+55,                                        PlayStation 3,fighting,Virtua Fighter 5,85
+56,                                        Xbox 360,fighting,UFC Undisputed 3,85
+57,                                        PlayStation 3,fighting,Marvel vs. Capcom 2,85
+58,                                        PlayStation Vita,fighting,Mortal Kombat,85
+59,                                        Dreamcast,fighting,Street Fighter III: Double Impact,84
+60,                                        PlayStation 3,fighting,Street Fighter X Tekken,84
+61,                                        Game Boy Advance,fighting,Super Street Fighter II: Turbo Revival,84
+62,                                        Xbox 360,fighting,UFC Undisputed 2010,84
+63,                                        PC,fighting,Super Street Fighter IV: Arcade Edition,84
+64,                                        PlayStation 3,fighting,Marvel vs. Capcom 3: Fate of Two Worlds,84
+65,                                        PlayStation 3,fighting,Mortal Kombat,84
+66,                                        PlayStation,fighting,Dead or Alive,84
+67,                                        iOS,fighting,Street Fighter IV,84
+68,                                        Dreamcast,fighting,Street Fighter III: 3rd Strike,84
+69,                                        Xbox,fighting,Def Jam: Fight for NY,84
+70,                                        Xbox 360,fighting,Ultra Street Fighter IV,84
+71,                                        PlayStation 3,fighting,UFC Undisputed 2009,84
+72,                                        PlayStation 2,fighting,WWE SmackDown! vs. Raw 2006,84
+73,                                        PlayStation 3,fighting,BlazBlue: Chrono Phantasma,83
+74,                                        PlayStation 3,fighting,Ultra Street Fighter IV,83
+75,                                        Xbox 360,fighting,Street Fighter X Tekken,83
+76,                                        PlayStation,fighting,Bushido Blade,83
+77,                                        Xbox 360,fighting,Persona 4 Arena,83
+78,                                        Wii U,fighting,Tekken Tag Tournament 2: Wii U Edition,83
+79,                                        DS,fighting,Bleach: The Blade of Fate,83
+80,                                        Xbox 360,fighting,UFC Undisputed 2009,83
+81,                                        Game Boy Advance,fighting,Street Fighter Alpha 3,83
+82,                                        Xbox 360,fighting,Tekken Tag Tournament 2,83
+83,                                        PC,fighting,Skullgirls,83
+84,                                        PlayStation 2,fighting,Def Jam: Fight for NY,83
+85,                                        PlayStation Vita,fighting,BlazBlue: Continuum Shift Extend,83
+86,                                        iOS,fighting,The King of Fighters-i 002,82
+87,                                        Wii U,fighting,Injustice: Gods Among Us,82
+88,                                        PlayStation 2,fighting,WWE SmackDown! Shut Your Mouth,82
+89,                                        Xbox 360,fighting,Darkstalkers Resurrection,82
+90,                                        PlayStation 3,fighting,Skullgirls,82
+91,                                        PlayStation 3,fighting,Tekken Tag Tournament 2,82
+92,                                        PlayStation 3,fighting,Virtua Fighter 5 Final Showdown,82
+93,                                        PC,fighting,Ultra Street Fighter IV,82
+94,                                        Game Boy Advance,fighting,Tekken Advance,82
+95,                                        Xbox 360,fighting,Marvel vs. Capcom 2,82
+96,                                        PSP,fighting,Tekken 6,82
+97,                                        PSP,fighting,BlazBlue: Calamity Trigger Portable,82
+98,                                        DS,fighting,Bleach: Dark Souls,82
+99,                                        PlayStation 3,fighting,Tekken 5: Dark Resurrection,82
+100,                                        Xbox 360,fighting,Injustice: Gods Among Us,81
+101,                                        Xbox,fighting,Mortal Kombat: Deadly Alliance,81
+102,                                        Xbox 360,fighting,Virtua Fighter 5 Final Showdown,81
+103,                                        PSP,fighting,WWE SmackDown! vs. Raw 2006,81
+104,                                        PlayStation 3,fighting,SoulCalibur V,81
+105,                                        Xbox,fighting,Mortal Kombat: Deception,81
+106,                                        Game Boy Advance,fighting,Mortal Kombat: Deadly Alliance,81
+107,                                        PlayStation 2,fighting,Capcom vs. SNK 2: Mark of the Millennium 2001,81
+108,                                        PlayStation 3,fighting,WWE SmackDown vs. Raw 2010,81
+109,                                        PlayStation 2,fighting,Mortal Kombat: Deception,81
+110,                                        Xbox 360,fighting,WWE SmackDown vs. Raw 2007,81
+111,                                        PC,fighting,Mortal Kombat Komplete Edition,81
+112,                                        GameCube,fighting,Mortal Kombat: Deadly Alliance,81
+113,                                        GameCube,fighting,Def Jam Vendetta,81
+114,                                        PlayStation 3,fighting,Ultimate Marvel vs. Capcom 3,80
+115,                                        Xbox 360,fighting,WWE SmackDown vs. Raw 2010,80
+116,                                        PSP,fighting,Street Fighter Alpha 3 MAX,80
+117,                                        Dreamcast,fighting,Project Justice,80
+118,                                        PlayStation 4,fighting,Injustice: Gods Among Us - Ultimate Edition,80
+119,                                        Dreamcast,fighting,Capcom vs. SNK,80
+120,                                        Game Boy Advance,fighting,The King of Fighters EX2: Howling Blood,80
+121,                                        PlayStation 3,fighting,Darkstalkers Resurrection,80
+122,                                        Xbox 360,fighting,Tekken 6,80
+123,                                        PlayStation 3,fighting,Super Street Fighter IV: Arcade Edition,80
+124,                                        PlayStation 2,fighting,WWE SmackDown! vs. Raw,80
+125,                                        Game Boy Advance,fighting,Fire Pro Wrestling,80
+126,                                        PlayStation 2,fighting,War of the Monsters,80
+127,                                        PSP,fighting,SoulCalibur: Broken Destiny,80
+128,                                        PlayStation Vita,fighting,Ultimate Marvel vs. Capcom 3,80
+129,                                        PlayStation 2,fighting,WWE SmackDown vs. Raw 2007,80
+130,                                        PC,fighting,Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst,80
+131,                                        PlayStation Vita,fighting,Dead or Alive 5 Plus,80
+132,                                        PlayStation 2,fighting,Def Jam Vendetta,80
+133,                                        Xbox,fighting,Capcom vs. SNK 2 EO,80
+134,                                        PlayStation,fighting,Gundam Battle Assault 2,80
+135,                                        Xbox 360,fighting,WWE SmackDown vs. Raw 2009,79
+136,                                        Xbox 360,fighting,The King of Fighters XIII,79
+137,                                        PlayStation Vita,fighting,Street Fighter X Tekken,79
+138,                                        Xbox 360,fighting,EA Sports MMA,79
+139,                                        3DS,fighting,Dead or Alive Dimensions,79
+140,                                        Xbox 360,fighting,SoulCalibur,79
+141,                                        PC,fighting,Injustice: Gods Among Us - Ultimate Edition,79
+142,                                        PlayStation 2,fighting,Mortal Kombat: Deadly Alliance,79
+143,                                        Xbox 360,fighting,BlazBlue: Continuum Shift Extend,79
+144,                                        PlayStation 3,fighting,Tekken 6,79
+145,                                        PSP,fighting,Dissidia: Final Fantasy,79
+146,                                        PSP,fighting,Def Jam: Fight for NY: The Takeover,79
+147,                                        GameCube,fighting,WWE Day of Reckoning,79
+148,                                        Xbox 360,fighting,Ultimate Marvel vs. Capcom 3,79
+149,                                        PlayStation 2,fighting,Tekken 4,79
+150,                                        Wii,fighting,WWE SmackDown vs. Raw 2009,79
+151,                                        PlayStation 2,fighting,Guilty Gear X,79
+152,                                        PC,fighting,Street Fighter X Tekken,79
+153,                                        Nintendo 64,fighting,Super Smash Bros.,79
+154,                                        Wii,fighting,WWE SmackDown vs. Raw 2010,78
+155,                                        Xbox 360,fighting,WWE '13,78
+156,                                        Xbox 360,fighting,Super Street Fighter IV: Arcade Edition,78
+157,                                        PlayStation 3,fighting,WWE SmackDown vs. Raw 2009,78
+158,                                        Xbox 360,fighting,Skullgirls,78
+159,                                        PSP,fighting,Dissidia 012: Duodecim Final Fantasy,78
+160,                                        PSP,fighting,WWE SmackDown vs. Raw 2007,78
+161,                                        PlayStation 2,fighting,WWE SmackDown vs. Raw 2009,78
+162,                                        PC,fighting,Awesomenauts,78
+163,                                        PlayStation 3,fighting,Injustice: Gods Among Us,78
+164,                                        PlayStation 2,fighting,Fire Pro Wrestling Returns,78
+165,                                        Xbox 360,fighting,Marvel vs. Capcom Origins,78
+166,                                        Xbox,fighting,Mortal Kombat: Armageddon,77
+167,                                        PlayStation 3,fighting,EA Sports MMA,77
+168,                                        PlayStation 3,fighting,Dead or Alive 5 Ultimate,77
+169,                                        Xbox 360,fighting,SoulCalibur V,77
+170,                                        iOS,fighting,Rhythm Spirit,77
+171,                                        PC,fighting,The King of Fighters XIII: Steam Edition,77
+172,                                        PlayStation 3,fighting,Naruto Shippuden: Ultimate Ninja Storm 3,77
+173,                                        GameCube,fighting,Ultimate Muscle: Legends vs New Generation,77
+174,                                        PlayStation 3,fighting,The King of Fighters XIII,77
+175,                                        PlayStation 2,fighting,Arcana Heart,77
+176,                                        Dreamcast,fighting,The Last Blade 2: Heart of the Samurai,77
+177,                                        PlayStation 2,fighting,Guilty Gear XX Accent Core,77
+178,                                        GameCube,fighting,Mortal Kombat: Deception,77
+179,                                        PSP,fighting,BlazBlue: Continuum Shift II,77
+180,                                        PSP,fighting,Guilty Gear Judgment,77
+181,                                        Xbox 360,fighting,Garou: Mark of the Wolves,77
+182,                                        PlayStation 3,fighting,Mortal Kombat Komplete Edition,77
+183,                                        PlayStation 2,fighting,Dragon Ball Z: Budokai 3,77
+184,                                        Xbox 360,fighting,Awesomenauts,77
+185,                                        GameCube,fighting,WWE WrestleMania XIX,76
+186,                                        Wii,fighting,Guilty Gear XX Accent Core Plus,76
+187,                                        Xbox 360,fighting,Street Fighter II' Hyper Fighting,76
+188,                                        Xbox 360,fighting,Dead or Alive 5,76
+189,                                        Xbox 360,fighting,SoulCalibur II HD Online,76
+190,                                        GameCube,fighting,WWE Day of Reckoning 2,76
+191,                                        iOS,fighting,Paper Monsters,76
+192,                                        PlayStation 3,fighting,WWE '13,76
+193,                                        PlayStation 3,fighting,Naruto Shippuden: Ultimate Ninja Storm 2,76
+194,                                        PlayStation 2,fighting,WWF SmackDown! Just Bring It,76
+195,                                        PlayStation 2,fighting,Marvel vs. Capcom 2,76
+196,                                        PC,fighting,Total Extreme Wrestling 2004,76
+197,                                        PlayStation 3,fighting,Mortal Kombat vs. DC Universe,76
+198,                                        Xbox 360,fighting,WWE 2K14,75
+199,                                        PlayStation 2,fighting,Mortal Kombat: Armageddon,75
+200,                                        PlayStation 3,fighting,Awesomenauts,75
+201,                                        PlayStation 2,fighting,Naruto: Ultimate Ninja,75
+202,                                        PlayStation 2,fighting,Naruto: Ultimate Ninja 3,75
+203,                                        Xbox 360,fighting,WWE All Stars,75
+204,                                        PlayStation 3,fighting,WWE All Stars,75
+205,                                        GameCube,fighting,Bloody Roar: Primal Fury,75
+206,                                        Wii,fighting,Guilty Gear XX Accent Core,75
+207,                                        Xbox 360,fighting,WWE SmackDown vs. Raw 2011,75
+208,                                        PlayStation 3,fighting,AquaPazza: AquaPlus Dream Match,75
+209,                                        Xbox 360,fighting,Dead or Alive 5 Ultimate,75
+210,                                        PlayStation 3,fighting,Naruto: Ultimate Ninja Storm,75
+211,                                        PlayStation Vita,fighting,PlayStation All-Stars Battle Royale,75
+212,                                        DS,fighting,WWE SmackDown vs. Raw 2010,75
+213,                                        PlayStation 3,fighting,Guilty Gear XX Accent Core Plus,75
+214,                                        PlayStation,fighting,X-Men: Mutant Academy,75
+215,                                        Game Boy Advance,fighting,Mortal Kombat: Tournament Edition,75
+216,                                        PlayStation 2,fighting,The King of Fighters XI,75
+217,                                        Wii,fighting,Naruto: Clash of Ninja Revolution,74
+218,                                        PSP,fighting,Darkstalkers Chronicle: The Chaos Tower,74
+219,                                        Xbox,fighting,Ultimate Fighting Championship: Tapout,74
+220,                                        GameCube,fighting,Naruto: Clash of Ninja 2,74
+221,                                        PlayStation 3,fighting,Naruto Shippuden: Ultimate Ninja Storm Generations,74
+222,                                        PlayStation 3,fighting,WWE SmackDown vs. Raw 2008,74
+223,                                        PlayStation 3,fighting,WWE SmackDown vs. Raw 2011,74
+224,                                        Wii,fighting,Naruto Shippuden: Clash of Ninja Revolution III,74
+225,                                        PlayStation 3,fighting,WWE 2K14,74
+226,                                        PSP,fighting,UFC Undisputed 2010,74
+227,                                        Xbox 360,fighting,Naruto Shippuden: Ultimate Ninja Storm Generations,74
+228,                                        Xbox 360,fighting,Guilty Gear XX Accent Core Plus,74
+229,                                        Xbox 360,fighting,Naruto Shippuden: Ultimate Ninja Storm 2,74
+230,                                        DS,fighting,Custom Robo Arena,74
+231,                                        Wii,fighting,WWE '13,74
+232,                                        PlayStation,fighting,Capcom vs. SNK Pro,74
+233,                                        PlayStation 3,fighting,Dead or Alive 5,74
+234,                                        PlayStation 3,fighting,PlayStation All-Stars Battle Royale,74
+235,                                        Wii,fighting,WWE '12,74
+236,                                        PlayStation 2,fighting,Naruto: Ultimate Ninja 2,73
+237,                                        Xbox 360,fighting,The King of Fighters '98 Ultimate Match,73
+238,                                        iOS,fighting,SoulCalibur,73
+239,                                        PlayStation 2,fighting,Pride FC: Fighting Championships,73
+240,                                        PlayStation 2,fighting,Guilty Gear Isuka,73
+241,                                        PlayStation 3,fighting,Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst,73
+242,                                        DS,fighting,Ultimate Mortal Kombat,73
+243,                                        PlayStation 3,fighting,BlazBlue: Continuum Shift Extend,73
+244,                                        PlayStation 3,fighting,Arcana Heart 3,73
+245,                                        PC,fighting,Yatagarasu: Attack on Cataclysm,73
+246,                                        PlayStation 2,fighting,The King of Fighters '98 Ultimate Match,73
+247,                                        Game Boy Advance,fighting,Dragon Ball Z: Supersonic Warriors,73
+248,                                        iOS,fighting,Mr. Dreamer,73
+249,                                        PlayStation 3,fighting,SoulCalibur II HD Online,73
+250,                                        PlayStation 2,fighting,Dragon Ball Z: Budokai Tenkaichi 3,73
+251,                                        Xbox One,fighting,Killer Instinct,73
+252,                                        Xbox 360,fighting,Small Arms,73
+253,                                        Xbox 360,fighting,Virtual-On: Oratorio Tangram Ver.5.66,73
+254,                                        GameCube,fighting,Godzilla: Destroy All Monsters Melee,73
+255,                                        PlayStation 2,fighting,Dragon Ball Z: Budokai Tenkaichi 2,73
+256,                                        Game Boy Advance,fighting,WWE Road to WrestleMania X8,73
+257,                                        PC,fighting,Divekick,73
+258,                                        Game Boy Advance,fighting,Fire Pro Wrestling 2,72
+259,                                        PSP,fighting,WWE SmackDown vs. Raw 2009,72
+260,                                        PlayStation 3,fighting,Marvel vs. Capcom Origins,72
+261,                                        Xbox 360,fighting,Samurai Shodown II,72
+262,                                        Wii,fighting,Naruto: Clash of Ninja Revolution 2,72
+263,                                        Wii,fighting,Dragon Ball Z: Budokai Tenkaichi 2,72
+264,                                        PlayStation 2,fighting,Super Dragon Ball Z,72
+265,                                        Wii,fighting,WWE SmackDown vs. Raw 2011,72
+266,                                        Xbox 360,fighting,Mortal Kombat vs. DC Universe,72
+267,                                        Xbox 360,fighting,Dragon Ball Z: Burst Limit,72
+268,                                        Wii,fighting,Dragon Ball Z: Budokai Tenkaichi 3,72
+269,                                        PlayStation 3,fighting,WWE '12,72
+270,                                        GameCube,fighting,Naruto: Clash of Ninja,72
+271,                                        PSP,fighting,Fate/Unlimited Codes,72
+272,                                        PlayStation,fighting,X-Men: Mutant Academy 2,72
+273,                                        PlayStation 2,fighting,Dragon Ball Z: Budokai Tenkaichi,72
+274,                                        PlayStation 3,fighting,Mortal Kombat II,72
+275,                                        iOS,fighting,The King of Fighters '97,71
+276,                                        Wii,fighting,Mortal Kombat: Armageddon,71
+277,                                        Xbox,fighting,Godzilla: Destroy All Monsters Melee,71
+278,                                        PlayStation 3,fighting,Dragon Ball Z: Burst Limit,71
+279,                                        Xbox 360,fighting,WWE '12,71
+280,                                        Xbox 360,fighting,WWE Legends of WrestleMania,71
+281,                                        Xbox 360,fighting,Fighting Vipers,71
+282,                                        PlayStation 2,fighting,WWE SmackDown vs. Raw 2008,71
+283,                                        PlayStation 2,fighting,Bloody Roar 3,71
+284,                                        Game Boy Advance,fighting,Shrek: Hassle at the Castle,71
+285,                                        3DS,fighting,WWE All Stars,71
+286,                                        GameCube,fighting,Digimon Rumble Arena 2,71
+287,                                        DS,fighting,Draglade,71
+288,                                        Xbox 360,fighting,Battle Fantasia,71
+289,                                        Xbox 360,fighting,WWE SmackDown vs. Raw 2008,71
+290,                                        PlayStation 3,fighting,JoJo's Bizarre Adventure All-Star Battle,71
+291,                                        Game Boy Advance,fighting,Ultimate Muscle: The Kinnikuman Legacy - The Path of the Superhero,70
+292,                                        PlayStation Vita,fighting,Divekick,70
+293,                                        PSP,fighting,Naruto: Ultimate Ninja Heroes,70
+294,                                        PSP,fighting,WWE All Stars,70
+295,                                        PlayStation 3,fighting,Tekken Revolution,70
+296,                                        GameCube,fighting,One Piece: Grand Adventure,70
+297,                                        PlayStation 3,fighting,WWE Legends of WrestleMania,70
+298,                                        Xbox 360,fighting,Naruto Shippuden: Ultimate Ninja Storm 3,70
+299,                                        Xbox 360,fighting,Ultimate Mortal Kombat 3,70
+300,                                        PSP,fighting,Dragon Ball Z: Shin Budokai,70
+301,                                        Wii,fighting,The King of Fighters Collection: The Orochi Saga,70
+302,                                        PSP,fighting,Mortal Kombat: Unchained,70
+303,                                        Xbox 360,fighting,Virtua Fighter 2,70
+304,                                        iOS,fighting,Batman: Arkham City: Lockdown,69
+305,                                        PlayStation,fighting,Battle Arena Toshinden,69
+306,                                        PlayStation 2,fighting,One Piece: Grand Battle,69
+307,                                        PC,fighting,Rag Doll Kung Fu,69
+308,                                        Xbox,fighting,The King of Fighters: Maximum Impact - Maniax,69
+309,                                        Xbox 360,fighting,Def Jam: Icon,69
+310,                                        PlayStation Vita,fighting,Guilty Gear XX Accent Core Plus R,69
+311,                                        PlayStation,fighting,Inuyasha: A Feudal Fairy Tale,69
+312,                                        Game Boy Advance,fighting,Sonic Battle,69
+313,                                        Wii,fighting,WWE All Stars,68
+314,                                        PlayStation 3,fighting,Def Jam: Icon,68
+315,                                        PlayStation 3,fighting,Rag Doll Kung Fu: Fists of Plastic,68
+316,                                        PlayStation 2,fighting,Ultimate Fighting Championship: Throwdown,68
+317,                                        PSP,fighting,WWE SmackDown vs. Raw 2008,68
+318,                                        Xbox 360,fighting,JoJo's Bizarre Adventure HD Ver.,68
+319,                                        Xbox,fighting,WWF Raw,68
+320,                                        GameCube,fighting,Capcom vs. SNK 2 EO,68
+321,                                        Xbox,fighting,WWE Raw 2,68
+322,                                        Xbox,fighting,Kung Fu Chaos,68
+323,                                        GameCube,fighting,One Piece Grand Battle,67
+324,                                        Game Boy Advance,fighting,Guilty Gear X Advance Edition,67
+325,                                        Dreamcast,fighting,The King of Fighters '99: Evolution,67
+326,                                        PlayStation 2,fighting,Dragon Ball Z: Budokai,67
+327,                                        GameCube,fighting,Ultimate Fighting Championship: Throwdown,67
+328,                                        PlayStation 3,fighting,Battle Fantasia,67
+329,                                        Wii,fighting,Teenage Mutant Ninja Turtles: Smash-Up,67
+330,                                        DS,fighting,Dragon Ball Z: Supersonic Warriors 2,66
+331,                                        Xbox 360,fighting,Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst,66
+332,                                        PlayStation 2,fighting,Rumble Roses,66
+333,                                        PlayStation 2,fighting,NeoGeo Battle Coliseum,66
+334,                                        PlayStation Vita,fighting,Dragon Ball Z: Battle of Z,66
+335,                                        Xbox,fighting,UFC: Tapout 2,66
+336,                                        PlayStation 2,fighting,The King of Fighters 2006,66
+337,                                        PlayStation 2,fighting,Dragon Ball Z: Budokai 2,66
+338,                                        PlayStation 2,fighting,One Piece: Grand Adventure,66
+339,                                        Dreamcast,fighting,WWF Royal Rumble,66
+340,                                        GameCube,fighting,Dragon Ball Z: Budokai 2,66
+341,                                        GameCube,fighting,Custom Robo,65
+342,                                        GameCube,fighting,Dragon Ball Z: Budokai,65
+343,                                        PlayStation 2,fighting,Onimusha Blade Warriors,65
+344,                                        Xbox,fighting,Marvel vs. Capcom 2,65
+345,                                        Xbox,fighting,Digimon Rumble Arena 2,65
+346,                                        PSP,fighting,Dragon Ball Z: Shin Budokai - Another Road,65
+347,                                        PlayStation 3,fighting,Divekick,65
+348,                                        Xbox,fighting,Legends of Wrestling,65
+349,                                        PlayStation 3,fighting,Tekken Hybrid,65
+350,                                        Xbox,fighting,Tao Feng: Fist of the Lotus,65
+351,                                        PlayStation 2,fighting,Street Fighter EX3,64
+352,                                        3DS,fighting,Tekken 3D Prime Edition,64
+353,                                        PlayStation 2,fighting,King of Fighters: Maximum Impact,64
+354,                                        Xbox 360,fighting,NeoGeo Battle Coliseum,64
+355,                                        PSP,fighting,Naruto: Ultimate Ninja Heroes 2: The Phantom Fortress,64
+356,                                        PlayStation,fighting,Digimon Rumble Arena,64
+357,                                        PlayStation 3,fighting,JoJo's Bizarre Adventure HD Ver.,64
+358,                                        GameCube,fighting,WWE WrestleMania X8,64
+359,                                        3DS,fighting,BlazBlue: Continuum Shift II,64
+360,                                        iOS,fighting,Marvel vs. Capcom 2,64
+361,                                        PlayStation 3,fighting,TNA iMPACT!,64
+362,                                        Xbox,fighting,Godzilla: Save the Earth,63
+363,                                        GameCube,fighting,X-Men: Next Dimension,63
+364,                                        PlayStation 2,fighting,Barbarian,63
+365,                                        Game Boy Advance,fighting,Digimon Battle Spirit 2,63
+366,                                        PSP,fighting,The Con,63
+367,                                        Xbox 360,fighting,Fatal Fury Special,63
+368,                                        PlayStation 2,fighting,Digimon Rumble Arena 2,63
+369,                                        PlayStation 2,fighting,Tom & Jerry in War of the Whiskers,63
+370,                                        PSP,fighting,Dragon Ball Z: Tenkaichi Tag Team,63
+371,                                        PC,fighting,Deadpool,63
+372,                                        Xbox 360,fighting,The King of Fighters XII,63
+373,                                        PlayStation 2,fighting,Kengo: Master of Bushido,62
+374,                                        Xbox,fighting,Legends of Wrestling II,62
+375,                                        Xbox 360,fighting,TNA iMPACT!,62
+376,                                        Game Boy Advance,fighting,WWF Road to Wrestlemania,62
+377,                                        Xbox 360,fighting,Rumble Roses XX,62
+378,                                        Xbox 360,fighting,Mortal Kombat Arcade Kollection,62
+379,                                        PlayStation 2,fighting,Godzilla: Save the Earth,62
+380,                                        Xbox,fighting,The King of Fighters NeoWave,62
+381,                                        PlayStation 3,fighting,Saint Seiya: Sanctuary Battle,62
+382,                                        Xbox 360,fighting,Deadpool,62
+383,                                        DS,fighting,WWE SmackDown vs. Raw 2008,61
+384,                                        PlayStation 2,fighting,Galactic Wrestling: Featuring Ultimate Muscle,61
+385,                                        PlayStation 3,fighting,Acceleration of SUGURI X-Edition,61
+386,                                        PlayStation,fighting,Gundam: Battle Assault,61
+387,                                        Xbox,fighting,Bloody Roar Extreme,61
+388,                                        Game Boy Advance,fighting,Dual Blades,61
+389,                                        PC,fighting,One Must Fall: Battlegrounds,61
+390,                                        Xbox 360,fighting,PowerUp Heroes,61
+391,                                        PlayStation 3,fighting,Deadpool,61
+392,                                        PlayStation 3,fighting,Chaos Code,61
+393,                                        PlayStation 2,fighting,X-Men: Next Dimension,61
+394,                                        Xbox,fighting,Capcom Fighting Evolution,61
+395,                                        PSP,fighting,Naruto Shippuden: Ultimate Ninja Heroes 3,61
+396,                                        DS,fighting,Naruto: Ninja Destiny,61
+397,                                        PSP,fighting,The King of Fighters Collection: The Orochi Saga,61
+398,                                        GameCube,fighting,Rave Master,60
+399,                                        DS,fighting,Guilty Gear Dust Strikers,60
+400,                                        Game Boy Advance,fighting,Medabots AX: Metabee Ver.,60
+401,                                        Xbox 360,fighting,WarTech: Senko no Ronde,60
+402,                                        PlayStation 3,fighting,Dragon Ball: Raging Blast 2,60
+403,                                        GameCube,fighting,Legends of Wrestling II,59
+404,                                        Wii,fighting,WWE SmackDown vs. Raw 2008,59
+405,                                        PlayStation 2,fighting,Legends of Wrestling II,59
+406,                                        PSP,fighting,Naruto Shippuden: Ultimate Ninja Impact,59
+407,                                        PlayStation 2,fighting,Bloody Roar 4,59
+408,                                        PlayStation 3,fighting,Mortal Kombat Arcade Kollection,59
+409,                                        DS,fighting,WWE SmackDown vs. Raw 2009,58
+410,                                        PlayStation 2,fighting,TNA iMPACT!,58
+411,                                        Wii,fighting,Bleach: Shattered Blade,58
+412,                                        Xbox,fighting,Iron Phoenix,58
+413,                                        PlayStation 2,fighting,Fighter Maker 2,58
+414,                                        PlayStation 3,fighting,Dragon Ball Z: Ultimate Tenkaichi,58
+415,                                        Xbox,fighting,Samurai Shodown V,58
+416,                                        PSP,fighting,Marvel Nemesis: Rise of the Imperfects,58
+417,                                        3DS,fighting,Cartoon Network: Punch Time Explosion,58
+418,                                        Xbox,fighting,Marvel Nemesis: Rise of the Imperfects,58
+419,                                        PlayStation 3,fighting,The King of Fighters XII,57
+420,                                        Xbox 360,fighting,Dragon Ball: Raging Blast 2,57
+421,                                        iOS,fighting,Samurai Shodown II,57
+422,                                        Xbox,fighting,Showdown: Legends of Wrestling,57
+423,                                        Game Boy Advance,fighting,Mobile Suit Gundam Seed: Battle Assault,57
+424,                                        Xbox,fighting,SVC Chaos: SNK vs. Capcom,57
+425,                                        GameCube,fighting,Zatch Bell! Mamodo Battles,57
+426,                                        PlayStation 3,fighting,Dragon Ball: Raging Blast,57
+427,                                        PlayStation 2,fighting,Capcom Fighting Evolution,57
+428,                                        Game Boy Advance,fighting,Rave Master: Special Attack Force,56
+429,                                        Xbox 360,fighting,Deadliest Warrior: Legends,56
+430,                                        Xbox 360,fighting,Deadliest Warrior: The Game,56
+431,                                        Game Boy Advance,fighting,Barnyard,56
+432,                                        Xbox 360,fighting,Dragon Ball: Raging Blast,56
+433,                                        PlayStation 2,fighting,Yu Yu Hakusho: Dark Tournament,56
+434,                                        Xbox,fighting,X-Men: Next Dimension,56
+435,                                        PlayStation 2,fighting,Zatch Bell! Mamodo Battles,56
+436,                                        Xbox,fighting,WWE WrestleMania 21,56
+437,                                        DS,fighting,Naruto Shippuden: Ninja Destiny 2,55
+438,                                        Xbox 360,fighting,Dragon Ball Z: Ultimate Tenkaichi,55
+439,                                        PlayStation 2,fighting,Legends of Wrestling,55
+440,                                        Game Boy Advance,fighting,WWE Survivor Series,55
+441,                                        PlayStation 2,fighting,Showdown: Legends of Wrestling,55
+442,                                        PlayStation 3,fighting,Saint Seiya: Brave Soldiers,55
+443,                                        PlayStation 2,fighting,UFC: Sudden Impact,54
+444,                                        GameCube,fighting,Marvel Nemesis: Rise of the Imperfects,54
+445,                                        Nintendo 64,fighting,Fighter Destiny 2,54
+446,                                        iOS,fighting,Ultimate Mortal Kombat 3,54
+447,                                        PC,fighting,WWE Raw,54
+448,                                        PlayStation 3,fighting,Dragon Ball Z: Battle of Z,54
+449,                                        PSP,fighting,Steambot Chronicles: Battle Tournament,54
+450,                                        PlayStation 3,fighting,Lucha Libre AAA Heroes del Ring,54
+451,                                        PlayStation 2,fighting,Virtual-On Marz,54
+452,                                        PlayStation,fighting,Ultimate Fighting Championship,53
+453,                                        Xbox 360,fighting,Dragon Ball Z: Battle of Z,53
+454,                                        Wii,fighting,Toribash: Violence Perfected,53
+455,                                        PlayStation 2,fighting,Marvel Nemesis: Rise of the Imperfects,53
+456,                                        PlayStation 2,fighting,Inuyasha: Feudal Combat,52
+457,                                        PlayStation 2,fighting,Backyard Wrestling: Don't Try This at Home,51
+458,                                        Xbox 360,fighting,Yie Ar Kung-Fu,51
+459,                                        PlayStation 3,fighting,Spartacus Legends,50
+460,                                        PSP,fighting,TNA Impact: Cross the Line,50
+461,                                        GameCube,fighting,Legends of Wrestling,50
+462,                                        PlayStation 3,fighting,Kung-Fu Live,50
+463,                                        Xbox,fighting,Backyard Wrestling: Don't Try This at Home,50
+464,                                        PC,fighting,Super ComboMan,49
+465,                                        Xbox 360,fighting,Lucha Libre AAA Heroes del Ring,49
+466,                                        Xbox 360,fighting,Dragon Ball Z for Kinect,49
+467,                                        GameCube,fighting,One Piece: Pirates' Carnival,49
+468,                                        Xbox 360,fighting,Supremacy MMA,49
+469,                                        Wii,fighting,Castlevania Judgment,49
+470,                                        Xbox 360,fighting,Fire Pro Wrestling,48
+471,                                        Nintendo 64,fighting,WCW Backstage Assault,48
+472,                                        PlayStation 2,fighting,Dragon Ball Z: Infinite World,48
+473,                                        PlayStation 3,fighting,The Fight: Lights Out,48
+474,                                        Xbox 360,fighting,Sonic the Fighters,47
+475,                                        PlayStation 3,fighting,Supremacy MMA,47
+476,                                        PlayStation 2,fighting,One Piece: Pirates' Carnival,47
+477,                                        Xbox 360,fighting,Bellator: MMA Onslaught,47
+478,                                        Xbox,fighting,Kakuto Chojin,46
+479,                                        Xbox 360,fighting,Samurai Shodown Sen,46
+480,                                        PlayStation 2,fighting,Backyard Wrestling 2: There Goes the Neighborhood,46
+481,                                        iOS,fighting,Voice Fantasy,46
+482,                                        Xbox 360,fighting,Spartacus Legends,45
+483,                                        Wii,fighting,Tournament of Legends,45
+484,                                        GameCube,fighting,TMNT: Mutant Melee,44
+485,                                        Wii,fighting,Godzilla: Unleashed,44
+486,                                        GameCube,fighting,Zatch Bell! Mamodo Fury,44
+487,                                        Wii,fighting,TNA iMPACT!,43
+488,                                        PlayStation Vita,fighting,Supremacy MMA: Unrestricted,43
+489,                                        PlayStation,fighting,ECW Anarchy Rulz,43
+490,                                        Xbox,fighting,Backyard Wrestling 2: There Goes the Neighborhood,43
+491,                                        Xbox,fighting,TMNT: Mutant Melee,43
+492,                                        PlayStation 3,fighting,Real Steel,41
+493,                                        PlayStation 2,fighting,Zatch Bell! Mamodo Fury,40
+494,                                        Game Boy Advance,fighting,Dragon Ball Z: Taiketsu,40
+495,                                        Xbox 360,fighting,Real Steel,40
+496,                                        Wii,fighting,Naruto Shippuden: Dragon Blade Chronicles,38
+497,                                        PSP,fighting,Legend of the Dragon,38
+498,                                        Dreamcast,fighting,ECW Anarchy Rulz,38
+499,                                        Wii,fighting,Legend of the Dragon,37
+500,                                        Xbox,fighting,Fight Club,37
+501,                                        Xbox 360,fighting,Deadliest Warrior: Ancient Combat,37
+502,                                        3DS,fighting,3D Classics: Urban Champion,37
+503,                                        Xbox,fighting,MTV's Celebrity Deathmatch,36
+504,                                        PlayStation 2,fighting,Fight Club,36
+505,                                        PlayStation 3,fighting,Girl Fight,35
+506,                                        DS,fighting,Clash of Elementalists,34
+507,                                        DS,fighting,Marvel Nemesis: Rise of the Imperfects,34
+508,                                        Xbox 360,fighting,Girl Fight,34
+509,                                        PlayStation 3,fighting,Kick-Ass,33
+510,                                        Game Boy Advance,fighting,Mortal Kombat Advance,33
+511,                                        PlayStation 2,fighting,MTV's Celebrity Deathmatch,32
+512,                                        Xbox 360,fighting,Fighters Uncaged,32
+513,                                        Xbox,fighting,Kabuki Warriors,32
+514,                                        PlayStation,fighting,The Simpsons Wrestling,32
+515,                                        PC,fighting,The Asskickers,31
+516,                                        PC,fighting,MTV's Celebrity Deathmatch,30
+517,                                        PlayStation 2,fighting,Legend of the Dragon,29
+518,                                        Xbox,fighting,Stake: Fortune Fighters,26
+519,                                        Game Boy Advance,fighting,Mucha Lucha! Mascaritas of the Lost Code,26
+520,                                        Xbox 360,fighting,Hulk Hogan's Main Event,26
+521,                                        PlayStation,fighting,Dragon Ball Z: Ultimate Battle 22,25
+522,                                        Game Boy Advance,fighting,Legends of Wrestling II,24
+523,                                        Game Boy Advance,fighting,Rock 'Em Sock 'Em Robots,21
