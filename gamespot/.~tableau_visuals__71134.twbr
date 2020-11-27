@@ -1,0 +1,748 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0525.1210                               -->
+<workbook source-build='2020.2.1 (20202.20.0525.1210)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='gamespot_reviews' inline='true' name='federated.011otax13x3jg71aa9odv1qesjjx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='gamespot_reviews' name='textscan.1f29ps20ckwd3514f6kwd0p16ldf'>
+            <connection class='textscan' directory='/Users/perry/Desktop/github_mp/Team-Amazing/gamespot' filename='gamespot_reviews.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1f29ps20ckwd3514f6kwd0p16ldf' name='gamespot_reviews.csv' table='[gamespot_reviews#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='platform' ordinal='0' />
+            <column datatype='string' name='genre' ordinal='1' />
+            <column datatype='string' name='title' ordinal='2' />
+            <column datatype='real' name='score' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1f29ps20ckwd3514f6kwd0p16ldf' name='gamespot_reviews.csv' table='[gamespot_reviews#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='platform' ordinal='0' />
+            <column datatype='string' name='genre' ordinal='1' />
+            <column datatype='string' name='title' ordinal='2' />
+            <column datatype='real' name='score' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[gamespot_reviews.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[platform]</local-name>
+            <parent-name>[gamespot_reviews.csv]</parent-name>
+            <remote-alias>platform</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gamespot_reviews.csv_5BA680014B6B4D2A880CC4A261AB3798]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre]</local-name>
+            <parent-name>[gamespot_reviews.csv]</parent-name>
+            <remote-alias>genre</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gamespot_reviews.csv_5BA680014B6B4D2A880CC4A261AB3798]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[gamespot_reviews.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gamespot_reviews.csv_5BA680014B6B4D2A880CC4A261AB3798]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[score]</local-name>
+            <parent-name>[gamespot_reviews.csv]</parent-name>
+            <remote-alias>score</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[gamespot_reviews.csv_5BA680014B6B4D2A880CC4A261AB3798]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Score (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[score]' peg='0' size='0.583' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='gamespot_reviews.csv' datatype='table' name='[__tableau_internal_object_id__].[gamespot_reviews.csv_5BA680014B6B4D2A880CC4A261AB3798]' role='measure' type='quantitative' />
+      <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+      <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+      <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+      <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:platform:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;3DS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PlayStation 4&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;PlayStation 3&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Xbox 360&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wii&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Xbox One&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PC&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;PlayStation Vita&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nintendo Switch&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Wii U&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:genre:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Puzzle&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Action&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;First-Person&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sports&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Real-Time&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Flight&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Adventure&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Wrestling&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Party/Minigame&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Strategy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Third-Person&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Role-Playing&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Platformer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Driving/Racing&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Turn-Based&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Simulation&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Fighting&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:platform:nk]' palette='games' type='shape'>
+            <map to='games/3DS_png.png'>
+              <bucket>&quot;3DS&quot;</bucket>
+            </map>
+            <map to='games/pc.jpeg'>
+              <bucket>&quot;Nintendo Switch&quot;</bucket>
+            </map>
+            <map to='games/pc.jpeg'>
+              <bucket>&quot;PC&quot;</bucket>
+            </map>
+            <map to='games/ps4.png'>
+              <bucket>&quot;PlayStation 3&quot;</bucket>
+            </map>
+            <map to='games/ps4_logo.png'>
+              <bucket>&quot;PlayStation 4&quot;</bucket>
+            </map>
+            <map to='games/switch.jpg'>
+              <bucket>&quot;PlayStation Vita&quot;</bucket>
+            </map>
+            <map to='games/wii.png'>
+              <bucket>&quot;Wii&quot;</bucket>
+            </map>
+            <map to='games/wiiu.png'>
+              <bucket>&quot;Wii U&quot;</bucket>
+            </map>
+            <map to='games/xbone.jpeg'>
+              <bucket>&quot;Xbox 360&quot;</bucket>
+            </map>
+            <map to='games/xbox360.jpg'>
+              <bucket>&quot;Xbox One&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='gamespot_reviews.csv' id='gamespot_reviews.csv_5BA680014B6B4D2A880CC4A261AB3798'>
+            <properties context=''>
+              <relation connection='textscan.1f29ps20ckwd3514f6kwd0p16ldf' name='gamespot_reviews.csv' table='[gamespot_reviews#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='platform' ordinal='0' />
+                  <column datatype='string' name='genre' ordinal='1' />
+                  <column datatype='string' name='title' ordinal='2' />
+                  <column datatype='real' name='score' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average score bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gamespot_reviews' name='federated.011otax13x3jg71aa9odv1qesjjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.011otax13x3jg71aa9odv1qesjjx'>
+            <column-instance column='[score]' derivation='Avg' name='[avg:score:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+            <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+            <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]'>
+            <groupfilter from='&quot;Action&quot;' function='range' level='[none:genre:nk]' to='&quot;Wrestling&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]</rows>
+        <cols>[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]</cols>
+      </table>
+      <simple-id uuid='{CCEBD707-533B-446A-9D28-4BFF190FF07C}' />
+    </worksheet>
+    <worksheet name='Average score box'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gamespot_reviews' name='federated.011otax13x3jg71aa9odv1qesjjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.011otax13x3jg71aa9odv1qesjjx'>
+            <column-instance column='[score]' derivation='Avg' name='[avg:score:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+            <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+            <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]</rows>
+        <cols>[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]</cols>
+      </table>
+      <simple-id uuid='{D3629018-5760-46FA-9AF7-CCC1E354557A}' />
+    </worksheet>
+    <worksheet name='Score Hist'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gamespot_reviews' name='federated.011otax13x3jg71aa9odv1qesjjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.011otax13x3jg71aa9odv1qesjjx'>
+            <column datatype='integer' name='[Score (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[score]' peg='0' size='0.583' />
+            </column>
+            <column-instance column='[score]' derivation='Count' name='[cnt:score:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column-instance column='[Score (bin)]' derivation='None' name='[none:Score (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+            <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+            <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]'>
+            <groupfilter function='level-members' level='[none:genre:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]'>
+            <groupfilter function='level-members' level='[none:platform:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]</column>
+            <column>[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.011otax13x3jg71aa9odv1qesjjx].[none:Score (bin):qk]' field-type='quantitative' max='10.989549999999999' min='0.087449999999999972' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.011otax13x3jg71aa9odv1qesjjx].[none:Score (bin):qk]' scope='cols' value='Score' />
+            <format attr='title' class='0' field='[federated.011otax13x3jg71aa9odv1qesjjx].[cnt:score:qk]' scope='rows' value='Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.011otax13x3jg71aa9odv1qesjjx].[cnt:score:qk]</rows>
+        <cols>[federated.011otax13x3jg71aa9odv1qesjjx].[none:Score (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.011otax13x3jg71aa9odv1qesjjx].[Score (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{9DF4701E-AF32-495C-BA69-93A9A2E1756C}' />
+    </worksheet>
+    <worksheet name='Score bubbles (distribution)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gamespot_reviews' name='federated.011otax13x3jg71aa9odv1qesjjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.011otax13x3jg71aa9odv1qesjjx'>
+            <column-instance column='[score]' derivation='Count' name='[cnt:score:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+            <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+            <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]'>
+            <groupfilter function='level-members' level='[none:platform:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.011otax13x3jg71aa9odv1qesjjx].[cnt:score:qk]' />
+              <text column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' />
+              <color column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DD8ADD41-773B-4485-B00F-3A40ABE151A1}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gamespot_reviews' name='federated.011otax13x3jg71aa9odv1qesjjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.011otax13x3jg71aa9odv1qesjjx'>
+            <column-instance column='[score]' derivation='Avg' name='[avg:score:qk]' pivot='key' type='quantitative' />
+            <column caption='Genre' datatype='string' name='[genre]' role='dimension' type='nominal' />
+            <column-instance column='[genre]' derivation='None' name='[none:genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+            <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+            <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]'>
+            <groupfilter function='level-members' level='[none:genre:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]'>
+            <groupfilter function='level-members' level='[none:platform:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]</column>
+            <column>[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]' field-type='quantitative' max='9.4865806466205012' min='4.0' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' />
+              <shape column='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.011otax13x3jg71aa9odv1qesjjx].[avg:score:qk]</cols>
+      </table>
+      <simple-id uuid='{80D16F73-A51A-45B9-8DD6-E5B95B92CA51}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='gamespot_reviews' name='federated.011otax13x3jg71aa9odv1qesjjx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.011otax13x3jg71aa9odv1qesjjx'>
+            <column-instance column='[platform]' derivation='None' name='[none:platform:nk]' pivot='key' type='nominal' />
+            <column-instance column='[title]' derivation='None' name='[none:title:nk]' pivot='key' type='nominal' />
+            <column caption='Platform' datatype='string' name='[platform]' role='dimension' type='nominal' />
+            <column caption='Score' datatype='real' name='[score]' role='measure' type='quantitative' />
+            <column-instance column='[score]' derivation='Sum' name='[sum:score:qk]' pivot='key' type='quantitative' />
+            <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.011otax13x3jg71aa9odv1qesjjx].[sum:score:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.011otax13x3jg71aa9odv1qesjjx].[sum:score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]</rows>
+        <cols>[federated.011otax13x3jg71aa9odv1qesjjx].[none:title:nk]</cols>
+      </table>
+      <simple-id uuid='{D4E183D5-D820-4143-96B1-F385E6675702}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{93E067E0-D1E3-4886-A75A-0A78053D3ADE}' />
+    </window>
+    <window class='worksheet' name='Score bubbles (distribution)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{09480994-1E1B-46BF-A3EF-AE6126C6451E}' />
+    </window>
+    <window class='worksheet' name='Average score box'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F6F51B24-1AB9-4E29-AAC9-C7822162551D}' />
+    </window>
+    <window class='worksheet' name='Average score bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DFCFE162-E271-4D48-B687-D4A2CA1E768E}' />
+    </window>
+    <window class='worksheet' name='Score Hist'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:genre:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.011otax13x3jg71aa9odv1qesjjx].[none:platform:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EFB35BFD-C1E4-43B9-BEDB-97CB3D3050E8}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.011otax13x3jg71aa9odv1qesjjx].[sum:score:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{809870C8-C7F4-49F9-AE60-0A9184C7F2CC}' />
+    </window>
+  </windows>
+</workbook>
