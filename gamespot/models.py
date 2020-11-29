@@ -51,11 +51,11 @@ lm_score_train = lm.score(xtrain, ytrain)
 lm_score_test = lm.score(xtest, ytest)
 lm_cv = cross_val_score(lm_fit, x, y, cv=10)
 
-print(f'The accuracy of the train set: {lm_score_train}')
-print(f'The accuracy of the test set: {lm_score_test}')
-print('Intercept:', lm.intercept_)
-print('Coefficient:', lm.coef_) 
-print(f'Cross evaluation accuracies:\n{lm_cv}\nMean: {np.mean(lm_cv)}')
+print(f'The accuracy of the train set: {lm_score_train}\n')
+print(f'The accuracy of the test set: {lm_score_test}\n')
+print(f'Intercept: {lm.intercept_}\n')
+print(f'Coefficient: {lm.coef_}\n') 
+print(f'Cross evaluation\n{lm_cv}\n\nCross evaluation mean: {np.mean(lm_cv)}')
 
 #%%
 # Check for multicollinearity in factors
@@ -68,17 +68,6 @@ vif = pd.DataFrame()
 vif["variables"] = x.columns
 vif["VIF"] = [ variance_inflation_factor(x.values, i) for i in range(x.shape[1]) ]
 print(vif) # No issues with multicollinearity
-
-#%%
-from statsmodels.formula.api import ols
-model_fit = ols(formula='score ~ C(platform) + C(genre)', data=df).fit()
-print( model_fit.summary() )
-
-#%%
-modelpredicitons = pd.DataFrame( columns=['score_lm'], data= model_fit.predict(df_gamespot)) 
-# use the original dataset gpa data to find the expected model values
-print(modelpredicitons.shape)
-print( modelpredicitons.head())
 
 #%%[markdown]
 # # Logistic model
@@ -113,12 +102,12 @@ scoreLogitFit = scoreLogit.fit(xtraincf, ytraincf)
 scoreLogit_predict = scoreLogitFit.predict(xtestcf)
 scoreLogit_train = scoreLogit.score(xtraincf, ytraincf)
 scoreLogit_test = scoreLogit.score(xtestcf, ytestcf)
-scoreLogit_cv = cross_val_score(scoreLogitFit, xcf, ycf, cv=10)
+scoreLogit_cv = cross_val_score(scoreLogitFit, xcf, ycf, cv=10, scoring='accuracy')
 
 print(f'The accuracy of the train set: {scoreLogit_train}\n')
 print(f'The accuracy of the test set: {scoreLogit_test}\n')
 print(f'Cross evaluation accuracies:\n{scoreLogit_cv}\n\nCross evaluation mean: {np.mean(scoreLogit_cv)}\n')
-print(f'Predicted probabilities of train\n{scoreLogit.predict_proba(xtrain)}\n')
+print(f'Predicted probabilities of train\n{scoreLogit.predict_proba(xtraincf)}\n')
 print(f'Predicted probabilities of test\n{scoreLogit.predict_proba(xtestcf)}\n')
 print(f'Classification report:\n {classification_report(ytestcf, scoreLogit_predict)}') # Getting 0's across the board for 1 value
 print(f'Confusion matrix:\n {confusion_matrix(ytestcf, scoreLogit_predict)}') # Getting 0's across the board for 1 value 
@@ -177,16 +166,20 @@ plt.xlabel("Threshold")
 plt.legend(loc="lower left")
 plt.ylim([0,1])
 # %% [markdown]
-# KNN model
+# # KNN model
 
 #%%
 knn = KNeighborsClassifier(n_neighbors=7)
 knnFit = knn.fit(xtraincf,ytraincf)
 knnPredict = knn.predict(xtestcf)
-knn_cv = cross_val_score(knnFit, xcf, ycf, cv=10)
-print(f'Accuracy of KNN model: {knn.score(xtestcf,ytestcf)}\n')
-print(knn_cv) # [0.3637759  0.65157329 0.45817345 0.29470453 0.44973139 0.55564083 0.50652341 0.55871067 0.38142748 0.48463902]
-print(np.mean(knn_cv)) # 0.47048999531979263
+knnTrain = knn.score(xtraincf,ytraincf)
+knnTest = knn.score(xtestcf,ytestcf)
+knn_cv = cross_val_score(knnFit, xcf, ycf, cv=10, scoring='accuracy')
+
+print(f'Accuracy of KNN train model: {knnTrain}\n')
+print(f'Accuracy of KNN test model: {knnTest}\n')
+print(f'Cross evaluation accuracies:\n{knn_cv}\n\nCross evaluation mean: {np.mean(knn_cv)}') # [0.3637759  0.65157329 0.45817345 0.29470453 0.44973139 0.55564083 0.50652341 0.55871067 0.38142748 0.48463902]
+# mean: 0.47048999531979263
 print(f'Classification report:\n {classification_report(ytestcf, knnPredict)}')
 print(f'Confusion matrix:\n {confusion_matrix(ytestcf, knnPredict)}'),
 
@@ -194,14 +187,17 @@ print(f'Confusion matrix:\n {confusion_matrix(ytestcf, knnPredict)}'),
 # Decision Tree
 
 #%%
-# Instantiate dtree, try criterion='gini'  or 'entropy'
+# Instantiate dtree
 tree = DecisionTreeClassifier(criterion='entropy', max_depth=10, random_state=1)
-# Fit dt to the training set
 tree_fit = tree.fit(xtraincf,ytraincf)
-# Predict test set labels
+tree_train = tree.score(xtraincf, ytraincf)
+tree_test = tree.score(xtestcf, ytestcf)
 tree_pred = tree.predict(xtestcf)
-# Evaluate test-set accuracy
-print(accuracy_score(ytestcf, tree_pred))
+
+print(f'Decision Tree train accuracy score: {tree_train}\n')
+# Same as next line: 
+# print(f'Decision Tree accuracy: {accuracy_score(ytestcf, tree_pred)}\n')
+print(f'Decision Tree test accuracy score: {tree_test}\n')
 print(confusion_matrix(ytestcf, tree_pred))
 print(classification_report(ytestcf, tree_pred))
 
@@ -226,9 +222,9 @@ plt.show()
 svc = SVC(gamma='auto')
 svcFit = svc.fit(xtraincf,ytraincf)
 svc_cv_acc = cross_val_score(svc, xtraincf, ytraincf, cv= 10, scoring='accuracy')
-print(f'svc train score:  {svc.score(xtraincf,ytraincf)}')
-print(f'svc test score:  {svc.score(xtestcf,ytestcf)}')
-print(f'SVC CV accuracy score:  {svc_cv_acc}')
+print(f'SVC train score:  {svc.score(xtraincf,ytraincf)}')
+print(f'SVC test score:  {svc.score(xtestcf,ytestcf)}')
+print(f'SVC CV accuracy score: {svc_cv_acc}\n\n SVC CV mean accuracy: {np.mean(svc_cv_acc)}\n')
 print(confusion_matrix(ytestcf, svc.predict(xtestcf)))
 print(classification_report(ytestcf, svc.predict(xtestcf)))
 
