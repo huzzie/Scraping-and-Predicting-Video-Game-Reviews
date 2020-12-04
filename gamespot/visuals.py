@@ -17,12 +17,16 @@ sns.histplot(df, x='score', bins=20)
 # pd_df = df.sort_values(['score']).reset_index(drop=True)
 # print (pd_df)
 #%%
-df_genre = df[['genre', 'score']]
-sns.countplot(y='genre', data=df_genre, order = df_genre['genre'].value_counts().index)
+sns.countplot(y='genre', data=df, order = df['genre'].value_counts().index)
 
 #%%
-df_platform = df[['platform', 'score']]
-sns.countplot(y='platform', data=df_platform, order = df_platform['platform'].value_counts().index)
+sns.boxplot(data=df, x='score', y='genre', order = df['genre'].value_counts().index)
+
+#%%
+sns.countplot(y='platform', data=df, order = df['platform'].value_counts().index)
+
+#%%
+sns.boxplot(data=df, x='score', y='platform', order = df['platform'].value_counts().index)
 
 #%%
 # Scores distribution for all platforms and genres
@@ -39,9 +43,4 @@ sns.countplot(y='platform', data=df_platform, order = df_platform['platform'].va
 # platform_list = ['3DS', 'Nintendo Switch', 'PC', 'PlayStation 3', 'PlayStation 4', 'PlayStation Vita', 'Wii', 'Wii U', 'Xbox 360', 'Xbox One']
 # scoreDist(platform_list)
 
-# %%
-sns.boxplot(data=df, x='score', y='genre', order = df['genre'].value_counts().index)
-
-#%%
-sns.boxplot(data=df, x='score', y='platform', order = df['platform'].value_counts().index)
 # %%
