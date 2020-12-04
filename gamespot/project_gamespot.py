@@ -1,10 +1,8 @@
 #%%
 from selenium import webdriver
-# from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from time import sleep
 import pandas as pd
-import numpy as np
 
 #%%
 genre_list = ['Action', 'Adventure', 'Fighting', 'First-Person', 'Flight', 'Party/Minigame', 'Platformer', 'Puzzle', 'Driving/Racing', 'Real-Time', 'Role-Playing', 'Simulation', 'Sports', 'Strategy', 'Third-Person', 'Turn-Based', 'Wrestling']
