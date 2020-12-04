@@ -5,19 +5,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
-from sklearn import metrics
-from sklearn.metrics import precision_recall_curve
-from mlxtend.plotting import plot_decision_regions
 from sklearn.svm import SVC, LinearSVC
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import roc_auc_score, roc_curve
-from statsmodels.stats.outliers_influence import variance_inflation_factor
-from sklearn.metrics import confusion_matrix 
-from sklearn.metrics import classification_report
-from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn import metrics
+from sklearn.metrics import precision_recall_curve, roc_auc_score, roc_curve, confusion_matrix, classification_report
+from mlxtend.plotting import plot_decision_regions
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 #%%
 df_gamespot = pd.read_csv('gamespot_reviews.csv')
@@ -56,6 +51,20 @@ print(f'The accuracy of the test set: {lm_score_test}\n')
 print(f'Intercept: {lm.intercept_}\n')
 print(f'Coefficient: {lm.coef_}\n') 
 print(f'Cross evaluation\n{lm_cv}\n\nCross evaluation mean: {np.mean(lm_cv)}')
+
+# The accuracy of the train set: 0.002768614303998107
+
+# The accuracy of the test set: 0.0037527955246577926
+
+# Intercept: 6.802165115328733
+
+# Coefficient: [0.00218857 0.01566698]
+
+# Cross evaluation
+# [-0.00668987 -0.01715508 -0.00512538 -0.00067753 -0.00358889 -0.00350473
+#  -0.01716809 -0.01129756 -0.00277276 -0.02214194]
+
+# Cross evaluation mean: -0.009012182813006064
 
 #%%
 # Check for multicollinearity in factors
@@ -112,17 +121,47 @@ print(f'Predicted probabilities of test\n{scoreLogit.predict_proba(xtestcf)}\n')
 print(f'Classification report:\n {classification_report(ytestcf, scoreLogit_predict)}') # Getting 0's across the board for 1 value
 print(f'Confusion matrix:\n {confusion_matrix(ytestcf, scoreLogit_predict)}') # Getting 0's across the board for 1 value 
 
-#                         predicted 
-#                   0                  1
-# Actual 0   True Negative  TN      False Positive FP
-# Actual 1   False Negative FN      True Positive  TP
-# 
-# Accuracy    = (TP + TN) / Total
-# Precision   = TP / (TP + FP)
-# Recall rate = TP / (TP + FN) = Sensitivity
-# Specificity = TN / (TN + FP)
-# F1_score is the "harmonic mean" of precision and recall
-#          F1 = 2 (precision)(recall)/(precision + recall)
+# The accuracy of the train set: 0.6493332054111101
+
+# The accuracy of the test set: 0.6607828089025326
+
+# Cross evaluation accuracies:
+# [0.65157329 0.65157329 0.65157329 0.65157329 0.65157329 0.65157329
+#  0.65157329 0.65157329 0.65157329 0.65207373]
+
+# Cross evaluation mean: 0.6516233364338234
+
+# Predicted probabilities of train
+# [[0.65294661 0.34705339]
+#  [0.63621819 0.36378181]
+#  [0.63856304 0.36143696]
+#  ...
+#  [0.65515314 0.34484686]
+#  [0.64405536 0.35594464]
+#  [0.65294661 0.34705339]]
+
+# Predicted probabilities of test
+# [[0.64537756 0.35462244]
+#  [0.64537756 0.35462244]
+#  [0.65735299 0.34264701]
+#  ...
+#  [0.64742655 0.35257345]
+#  [0.63529667 0.36470333]
+#  [0.65335279 0.34664721]]
+
+# Classification report:
+#                precision    recall  f1-score   support
+
+#            0       0.66      1.00      0.80      1722
+#            1       0.00      0.00      0.00       884
+
+#     accuracy                           0.66      2606
+#    macro avg       0.33      0.50      0.40      2606
+# weighted avg       0.44      0.66      0.53      2606
+
+# Confusion matrix:
+#  [[1722    0]
+#  [ 884    0]]
 
 #%%
 # ROC-AUC Curve
@@ -153,12 +192,17 @@ plt.legend()
 # show the plot
 plt.show()
 
+# ROC-AUC Curve...
+# Poor model
+# No Skill: ROC AUC=0.500
+# Logistic: ROC AUC=0.547
+
 # %%
 precision, recall, thresholds = precision_recall_curve(ytestcf, scoreLogit.predict_proba(xtestcf)[:, 1]) 
 # retrieve probability of being 1(in second column of probs_y)
 pr_auc = metrics.auc(recall, precision)
 
-plt.title("Precision-Recall vs Threshold Chart")
+plt.title("Logistic Precision-Recall vs Threshold Chart")
 plt.plot(thresholds, precision[: -1], "b--", label="Precision")
 plt.plot(thresholds, recall[: -1], "r--", label="Recall")
 plt.ylabel("Precision, Recall")
@@ -183,6 +227,29 @@ print(f'Cross evaluation accuracies:\n{knn_cv}\n\nCross evaluation mean: {np.mea
 print(f'Classification report:\n {classification_report(ytestcf, knnPredict)}')
 print(f'Confusion matrix:\n {confusion_matrix(ytestcf, knnPredict)}'),
 
+# Accuracy of KNN train model: 0.6316799385973328
+
+# Accuracy of KNN test model: 0.6327705295471988
+
+# Cross evaluation accuracies:
+# [0.3637759  0.65157329 0.45817345 0.29470453 0.44973139 0.55564083
+#  0.50652341 0.55871067 0.38142748 0.48463902]
+
+# Cross evaluation mean: 0.47048999531979263
+# Classification report:
+#                precision    recall  f1-score   support
+
+#            0       0.66      0.91      0.77      1722
+#            1       0.35      0.10      0.15       884
+
+#     accuracy                           0.63      2606
+#    macro avg       0.51      0.50      0.46      2606
+# weighted avg       0.56      0.63      0.56      2606
+
+# Confusion matrix:
+#  [[1562  160]
+#  [ 797   87]]
+
 # %% [markdown]
 # Decision Tree
 
@@ -193,6 +260,7 @@ tree_fit = tree.fit(xtraincf,ytraincf)
 tree_train = tree.score(xtraincf, ytraincf)
 tree_test = tree.score(xtestcf, ytestcf)
 tree_pred = tree.predict(xtestcf)
+tree_cv = cross_val_score(tree_fit, xcf, ycf, cv=10, scoring='accuracy')
 
 print(f'Decision Tree train accuracy score: {tree_train}\n')
 # Same as next line: 
@@ -200,6 +268,28 @@ print(f'Decision Tree train accuracy score: {tree_train}\n')
 print(f'Decision Tree test accuracy score: {tree_test}\n')
 print(confusion_matrix(ytestcf, tree_pred))
 print(classification_report(ytestcf, tree_pred))
+print(f'Cross evaluation accuracies:\n{tree_cv}\n\nCross evaluation mean: {np.mean(tree_cv)}')
+
+# Decision Tree train accuracy score: 0.6569125971409383
+
+# Decision Tree test accuracy score: 0.6588641596316194
+
+# [[1658   64]
+#  [ 825   59]]
+#               precision    recall  f1-score   support
+
+#            0       0.67      0.96      0.79      1722
+#            1       0.48      0.07      0.12       884
+
+#     accuracy                           0.66      2606
+#    macro avg       0.57      0.51      0.45      2606
+# weighted avg       0.60      0.66      0.56      2606
+#
+# Cross evaluation accuracies:
+# [0.65157329 0.65157329 0.65157329 0.37989256 0.39984651 0.62624712
+#  0.52033768 0.50345357 0.61627015 0.37403994]
+
+# Cross evaluation mean: 0.5374807398264433
 
 #%%
 # filler_feature_values is used when you have more than 2 predictors, then 
@@ -221,12 +311,30 @@ plt.show()
 #%%
 svc = SVC(gamma='auto')
 svcFit = svc.fit(xtraincf,ytraincf)
-svc_cv_acc = cross_val_score(svc, xtraincf, ytraincf, cv= 10, scoring='accuracy')
+svc_cv_acc = cross_val_score(svc, xcf, ycf, cv= 10, scoring='accuracy')
 print(f'SVC train score:  {svc.score(xtraincf,ytraincf)}')
 print(f'SVC test score:  {svc.score(xtestcf,ytestcf)}')
 print(f'SVC CV accuracy score: {svc_cv_acc}\n\n SVC CV mean accuracy: {np.mean(svc_cv_acc)}\n')
 print(confusion_matrix(ytestcf, svc.predict(xtestcf)))
 print(classification_report(ytestcf, svc.predict(xtestcf)))
+
+# SVC train score:  0.6548978221241485
+# SVC test score:  0.6638526477359938
+# SVC CV accuracy score: [0.64525407 0.64908917 0.64237776 0.65163148 0.64779271 0.64395393
+#  0.65259117 0.65355086 0.64587332 0.64299424]
+
+#  SVC CV mean accuracy: 0.6475108713054584
+
+# [[1676   46]
+#  [ 830   54]]
+#               precision    recall  f1-score   support
+
+#            0       0.67      0.97      0.79      1722
+#            1       0.54      0.06      0.11       884
+
+#     accuracy                           0.66      2606
+#    macro avg       0.60      0.52      0.45      2606
+# weighted avg       0.63      0.66      0.56      2606
 
 #%%[markdown]
 # # Linear SVC
@@ -238,9 +346,28 @@ linearSVCFit = linearSVC.fit(xtraincf,ytraincf)
 linearSVC_cv_acc = cross_val_score(linearSVC, xtraincf, ytraincf, cv= 10, scoring='accuracy')
 print(f'linearSVC train score:  {linearSVC.score(xtraincf,ytraincf)}')
 print(f'linearSVC test score:  {linearSVC.score(xtestcf,ytestcf)}')
-print(f'linearSVC CV accuracy score:  {linearSVC_cv_acc}')
+print(f'linearSVC CV accuracy score:  {linearSVC_cv_acc}\n\nCross evaluation mean: {np.mean(linearSVC_cv_acc)}')
 print(f'Confusion matrix:\n {confusion_matrix(ytestcf, linearSVC.predict(xtestcf))}')
 print(f'Classification report:\n {classification_report(ytestcf, linearSVC.predict(xtestcf))}')
+
+# linearSVC train score:  0.6493332054111101
+# linearSVC test score:  0.6607828089025326
+# linearSVC CV accuracy score:  [0.64908917 0.64908917 0.64908917 0.64971209 0.64971209 0.64971209
+#  0.64971209 0.64971209 0.6487524  0.6487524 ]
+
+# Cross evaluation mean: 0.649333275672015
+# Confusion matrix:
+#  [[1722    0]
+#  [ 884    0]]
+# Classification report:
+#                precision    recall  f1-score   support
+
+#            0       0.66      1.00      0.80      1722
+#            1       0.00      0.00      0.00       884
+
+#     accuracy                           0.66      2606
+#    macro avg       0.33      0.50      0.40      2606
+# weighted avg       0.44      0.66      0.53      2606
 
 # %%
 # Plot classifiers
@@ -352,3 +479,5 @@ plot_classifiers(xcf.values, ycf.values, [knnFit, svcFit])
 # %%
 # Plotting logit so the tree_fit shows up
 plot_classifiers(xcf.values, ycf.values, [scoreLogitFit, tree_fit])
+
+#%%

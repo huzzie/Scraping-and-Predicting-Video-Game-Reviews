@@ -1,6 +1,7 @@
 #%%
 import seaborn as sns
 sns.set_theme()
+sns.set(rc={'figure.figsize':(11.7,8.27)})
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,46 +11,37 @@ df = pd.read_csv('gamespot_reviews.csv')
 df.info()
 
 #%%
-
-columns = [df.platform, df.genre, df.score]
-df_m = pd.DataFrame(data=columns)
-print(df_m.head())
-
-#%%
 sns.histplot(df, x='score', bins=20)
 
 #%%
+# pd_df = df.sort_values(['score']).reset_index(drop=True)
+# print (pd_df)
+#%%
+df_genre = df[['genre', 'score']]
+sns.countplot(y='genre', data=df_genre, order = df_genre['genre'].value_counts().index)
+
+#%%
+df_platform = df[['platform', 'score']]
+sns.countplot(y='platform', data=df_platform, order = df_platform['platform'].value_counts().index)
+
+#%%
 # Scores distribution for all platforms and genres
-sns.displot(df, x="score", col="platform", col_wrap=4, multiple="dodge")
+# sns.displot(df, x="score", col="platform", col_wrap=4, multiple="dodge")
 
 #%%
-def scoreDist(platformList):
-    for platform in platformList:
-        subset = df [df['platform'] == platform]
-        sns.displot(subset, x='score', col='genre', col_wrap=5, hue='genre', multiple='dodge')
-    return
-#%%
-platform_list = ['3DS', 'Nintendo Switch', 'PC', 'PlayStation 3', 'PlayStation 4', 'PlayStation Vita', 'Wii', 'Wii U', 'Xbox 360', 'Xbox One']
-scoreDist(platform_list)
+# def scoreDist(platformList):
+#     for platform in platformList:
+#         subset = df [df['platform'] == platform]
+#         sns.displot(subset, x='score', col='genre', col_wrap=5, hue='genre', multiple='dodge')
+#     return
 
 #%%
-df3DS = df[ df['platform'] == '3DS']
-sns.displot(df3DS, x="score", col='genre', col_wrap = 5, hue='genre', multiple='dodge', kde=True)
-
-#%%
-dfPC = df[ df['platform'] == 'PC']
-sns.displot(df3DS, x="score", col='genre', col_wrap = 3, hue='genre', multiple='dodge')
-
-#%%
-sns.boxplot(x='score', y='genre', orient='h', data=df3DS)
-
-#%%
-dfPC = df[ df['platform'] == 'PC']
-sns.displot(dfPC, x="score", row='genre', multiple='dodge')
+# platform_list = ['3DS', 'Nintendo Switch', 'PC', 'PlayStation 3', 'PlayStation 4', 'PlayStation Vita', 'Wii', 'Wii U', 'Xbox 360', 'Xbox One']
+# scoreDist(platform_list)
 
 # %%
-fig, ax = plt.subplots(figsize=(11, 9))
-sns.heatmap(df_m, cmap='Blues')
-plt.show()
+sns.boxplot(data=df, x='score', y='genre', order = df['genre'].value_counts().index)
 
+#%%
+sns.boxplot(data=df, x='score', y='platform', order = df['platform'].value_counts().index)
 # %%
