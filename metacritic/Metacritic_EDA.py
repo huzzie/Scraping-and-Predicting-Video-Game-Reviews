@@ -124,6 +124,19 @@ y = total_df['score']
 
 # %% [markdown]
 ## Linear Model
+lm = linear_model.LinearRegression()
+lm_fit = lm.fit(xtrain, ytrain)
+lm_predict = lm_fit.predict(xtest)
+lm_score_train = lm.score(xtrain, ytrain)
+lm_score_test = lm.score(xtest, ytest)
+lm_cv = cross_val_score(lm_fit, x, y, cv=10)
+
+print(f'The accuracy of the train set: {lm_score_train}\n')
+print(f'The accuracy of the test set: {lm_score_test}\n')
+print(f'Intercept: {lm.intercept_}\n')
+print(f'Coefficient: {lm.coef_}\n') 
+print(f'Cross evaluation\n{lm_cv}\n\nCross evaluation mean: {np.mean(lm_cv)}')
+
 
 #%%
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size = 0.25, random_state=1)
@@ -137,13 +150,13 @@ print('intercept:','%.4f' % full_split1.intercept_)
 print('coef_:', full_split1.coef_)
 print('cross evaluation:', cross_val_score(fit, x, y, cv = 10))
 
-# score (train): 0.0077
-# score (test): 0.0066
-# intercept: 67.2912
-# coef_: [ 0.20208439 -0.02632149]
-# cross evaluation: [-8.00750758e-01 -1.10802425e-01 -2.35084842e+01 -5.87163438e+00
-# -2.51259281e+00 -1.10628290e+00  1.52461781e-02 -2.32306277e-02
-# -7.35851228e-03  1.02781806e-02]
+# score (train): 0.0079
+# score (test): 0.0061
+# intercept: 67.6516
+# coef_: [ 0.19686723 -0.04670796]
+# cross evaluation: [-5.96977521e-01 -2.63904150e-02 -3.65200822e-02  5.94067655e-03
+#  -4.04917782e-02 -4.21544804e-02 -1.73931321e-01 -1.97466103e+01
+#  -1.74246074e-01 -4.98655688e+00]
 
 # %% [markdown]
 ## Logistic Model
@@ -154,8 +167,8 @@ fit2 = logit.fit(xtrain, ytrain)
 print('score (train):', '%.4f' % logit.score(xtrain, ytrain))
 print('score (train):', '%.4f' % logit.score(xtest, ytest))
 
-# score (train): 0.0365
-# score (train): 0.0330
+# score (train): 0.0418
+# score (train): 0.0353
 #%%
 #print(logit.predict_proba(xtrain[:1]))
 # too low 
@@ -184,33 +197,93 @@ print('cross evaluation:', cross_val_score(fit3, x, y, cv = 10))
 print("classification report:", classification_report(ytest, y_predit))
 print('confusion matrix:', confusion_matrix(ytest, y_predit ))
 
-# score (train): 0.7716
-# score (test): 0.7642
-# intercept: -1.3878
-# coef_: [[0.00436568 0.02577564]]
-# cross evaluation: [0.76972909 0.76972909 0.76972909 0.76972909 0.76972909 0.76972909
-#  0.76972909 0.76972909 0.76972909 0.77018268]
+# score (train): 0.7745
+# score (test): 0.7726
+# intercept: -1.1976
+# coef_: [[-0.00244425 -0.00106777]]
+# cross evaluation: [0.77363445 0.77404099 0.77404099 0.77404099 0.77404099 0.77404099
+#  0.77404099 0.77404099 0.77404099 0.77404099]
 # classification report:               precision    recall  f1-score   support
 
-#            0       0.76      1.00      0.87      3244
-#            1       0.00      0.00      0.00      1001
+#            0       0.77      1.00      0.87      3676
+#            1       0.00      0.00      0.00      1082
 
-#     accuracy                           0.76      4245
-#    macro avg       0.38      0.50      0.43      4245
-# weighted avg       0.58      0.76      0.66      4245
+#     accuracy                           0.77      4758
+#    macro avg       0.39      0.50      0.44      4758
+# weighted avg       0.60      0.77      0.67      4758
 
-# confusion matrix: [[3244    0]
-#  [1001    0]]
-
+# confusion matrix: [[3676    0]
+#  [1082    0]]
 
 # %% [markdown]
 ## Roc-Curve
 
 
+xcf = total_df[['nplatform', 'ngenre']]
+ycf = total_df['score8']
+
+xtraincf, xtestcf, ytraincf, ytestcf = train_test_split(xcf, ycf, test_size = 0.2, random_state=2020)
+
+#%%
+scoreLogit = LogisticRegression()
+scoreLogitFit = scoreLogit.fit(xtrain, ytrain)
+scoreLogit_predict = scoreLogitFit.predict(xtestcf)
+scoreLogit_train = scoreLogit.score(xtraincf, ytraincf)
+scoreLogit_test = scoreLogit.score(xtestcf, ytestcf)
+scoreLogit_cv = cross_val_score(scoreLogitFit, xcf, ycf, cv=10, scoring='accuracy')
+
+print(f'The accuracy of the train set: {scoreLogit_train}\n')
+print(f'The accuracy of the test set: {scoreLogit_test}\n')
+print(f'Cross evaluation accuracies:\n{scoreLogit_cv}\n\nCross evaluation mean: {np.mean(scoreLogit_cv)}\n')
+print(f'Predicted probabilities of train\n{scoreLogit.predict_proba(xtraincf)}\n')
+print(f'Predicted probabilities of test\n{scoreLogit.predict_proba(xtestcf)}\n')
+print(f'Classification report:\n {classification_report(ytestcf, scoreLogit_predict)}') # Getting 0's across the board for 1 value
+print(f'Confusion matrix:\n {confusion_matrix(ytestcf, scoreLogit_predict)}') # Getting 0's across the board for 1 value 
+
+#%%
+
+# generate a no skill prediction (majority class)
+ns_probs = [0 for _ in range(len(ytestcf))]
+# predict probabilities
+lr_probs = scoreLogitFit.predict_proba(xtestcf)
+# keep probabilities for the positive outcome only
+lr_probs = lr_probs[:, 1]
+# calculate scores
+ns_auc = roc_auc_score(ytestcf, ns_probs)
+lr_auc = roc_auc_score(ytestcf, lr_probs)
+# summarize scores
+print('No Skill: ROC AUC=%.3f' % (ns_auc)) # 0.500
+print('Logistic: ROC AUC=%.3f' % (lr_auc)) # 0.547
+# calculate roc curves
+ns_fpr, ns_tpr, _ = roc_curve(ytestcf, ns_probs)
+lr_fpr, lr_tpr, _ = roc_curve(ytestcf, lr_probs)
+# plot the roc curve for the model
+plt.plot(ns_fpr, ns_tpr, linestyle='--', label='No Skill')
+plt.plot(lr_fpr, lr_tpr, marker='.', label='Logistic')
+# axis labels
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+# show the legend
+plt.legend()
+# show the plot
+plt.show()
 
 
 
+#%%
 
+# %%
+precision, recall, thresholds = precision_recall_curve(ytestcf, scoreLogit.predict_proba(xtestcf)[:, 1]) 
+# retrieve probability of being 1(in second column of probs_y)
+pr_auc = metrics.auc(recall, precision)
+
+plt.title("Logistic Precision-Recall vs Threshold Chart")
+plt.plot(thresholds, precision[: -1], "b--", label="Precision")
+plt.plot(thresholds, recall[: -1], "r--", label="Recall")
+plt.ylabel("Precision, Recall")
+plt.xlabel("Threshold")
+plt.legend(loc="lower left")
+plt.ylim([0,1])
 
 #%% [markdown]
 ## KNN
@@ -230,20 +303,20 @@ print('cross evaluation:', '%.4f' % np.mean(knn_results))
 print("classification report:", classification_report(ytest, knn_predict))
 print('confusion matrix:', confusion_matrix(ytest, knn_predict ))
 
-# score (train): 0.7532
-# score (test): 0.7479
-# cross evaluation: 0.5652
+# score (train): 0.7678
+# score (test): 0.7673
+# cross evaluation: 0.6192
 # classification report:               precision    recall  f1-score   support
 
-#            0       0.77      0.96      0.85      3244
-#            1       0.30      0.05      0.09      1001
+#            0       0.77      0.99      0.87      3676
+#            1       0.35      0.03      0.05      1082
 
-#     accuracy                           0.75      4245
-#    macro avg       0.53      0.51      0.47      4245
-# weighted avg       0.66      0.75      0.67      4245
+#     accuracy                           0.77      4758
+#    macro avg       0.56      0.51      0.46      4758
+# weighted avg       0.68      0.77      0.68      4758
 
-# confusion matrix: [[3125  119]
-#  [ 951   50]]
+# confusion matrix: [[3623   53]
+#  [1054   28]]
 # %% [markdown]
 ## Decision Tree
 dt = DecisionTreeClassifier(criterion= 'entropy', max_depth= 10, random_state= 1)
@@ -258,21 +331,22 @@ print("classification report:", classification_report(ytest, dt_predict))
 print('confusion matrix:', confusion_matrix(ytest, dt_predict ))
 
 
+
 # dt = DecisionTreeClassifier(criterion= 'entropy', max_depth= 10, random_state= 1)...
-# score (train): 0.7720
-# score (test): 0.7637
-# cross evaluation: 0.6049
+# score (train): 0.7748
+# score (test): 0.7726
+# cross evaluation: 0.7499
 # classification report:               precision    recall  f1-score   support
 
-#            0       0.76      1.00      0.87      3244
-#            1       0.33      0.00      0.00      1001
+#            0       0.77      1.00      0.87      3676
+#            1       0.50      0.00      0.01      1082
 
-#     accuracy                           0.76      4245
-#    macro avg       0.55      0.50      0.43      4245
-# weighted avg       0.66      0.76      0.66      4245
+#     accuracy                           0.77      4758
+#    macro avg       0.64      0.50      0.44      4758
+# weighted avg       0.71      0.77      0.67      4758
 
-# confusion matrix: [[3240    4]
-#  [ 999    2]]
+# confusion matrix: [[3673    3]
+#  [1079    3]]
 
 # %% [markdown]
 ## Kmeans
@@ -304,20 +378,20 @@ print('cross evaluation:', '%.4f' % np.mean(svc_results))
 print(classification_report(ytest, svc.predict(xtest)))
 print(confusion_matrix(ytest, svc.predict(xtest)))
 
-# svc train score:  0.7716349929323072
-# svc test score:  0.7641931684334511
-# cross evaluation: 0.7193
+# svc train score:  0.7744692776571148
+# svc test score:  0.7725935266918873
+# cross evaluation: 0.7740
 #               precision    recall  f1-score   support
 
-#            0       0.76      1.00      0.87      3244
-#            1       0.00      0.00      0.00      1001
+#            0       0.77      1.00      0.87      3676
+#            1       0.00      0.00      0.00      1082
 
-#     accuracy                           0.76      4245
-#    macro avg       0.38      0.50      0.43      4245
-# weighted avg       0.58      0.76      0.66      4245
+#     accuracy                           0.77      4758
+#    macro avg       0.39      0.50      0.44      4758
+# weighted avg       0.60      0.77      0.67      4758
 
-# [[3244    0]
-#  [1001    0]]
+# [[3676    0]
+#  [1082    0]]
 #%%
 ## SVC variation
 svc2 = SVC(gamma= 'auto')
@@ -330,20 +404,22 @@ print('cross evaluation:', '%.4f' % np.mean(svc2_results))
 print(confusion_matrix(ytest, svc2.predict(xtest)))
 print(classification_report(ytest, svc2.predict(xtest)))
 
-# svc auto train score:  0.7719491126119051
-# svc auto test score:  0.7637220259128387
-# cross evaluation: 0.7221
-# [[3240    4]
-#  [ 999    2]]
+
+
+# ## SVC variation...
+# svc auto train score:  0.774679464723604
+# svc auto test score:  0.7723833543505675
+# cross evaluation: 0.7740
+# [[3673    3]
+#  [1080    2]]
 #               precision    recall  f1-score   support
 
-#            0       0.76      1.00      0.87      3244
-#            1       0.33      0.00      0.00      1001
+#            0       0.77      1.00      0.87      3676
+#            1       0.40      0.00      0.00      1082
 
-#     accuracy                           0.76      4245
-#    macro avg       0.55      0.50      0.43      4245
-# weighted avg       0.66      0.76      0.66      4245
-
+#     accuracy                           0.77      4758
+#    macro avg       0.59      0.50      0.44      4758
+# weighted avg       0.69      0.77      0.67      4758
 
 # %% [markdown]
 ## LinearSVC
@@ -356,18 +432,19 @@ print(f'Linear SVC test score:  {linsvc.score(xtest,ytest)}')
 print(confusion_matrix(ytest, linsvc.predict(xtest)))
 print(classification_report(ytest, linsvc.predict(xtest)))
 
-
-# Linear SVC scale train score:  0.7716349929323072
-# Linear SVC test score:  0.7641931684334511
-# [[3244    0]
-#  [1001    0]]
+# linsvc = LinearSVC()...
+# Linear SVC scale train score:  0.7744692776571148
+# Linear SVC test score:  0.7725935266918873
+# [[3676    0]
+#  [1082    0]]
 #               precision    recall  f1-score   support
 
-#            0       0.76      1.00      0.87      3244
-#            1       0.00      0.00      0.00      1001
+#            0       0.77      1.00      0.87      3676
+#            1       0.00      0.00      0.00      1082
 
-#     accuracy                           0.76      4245
-#    macro avg       0.38      0.50      0.43      4245
-# weighted avg       0.58      0.76      0.66      4245
+#     accuracy                           0.77      4758
+#    macro avg       0.39      0.50      0.44      4758
+# weighted avg       0.60      0.77      0.67      4758
 
 
+#%%
