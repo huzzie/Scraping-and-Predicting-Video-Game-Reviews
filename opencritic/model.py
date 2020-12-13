@@ -23,7 +23,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 # %%
-data = pd.read_excel(r'E:\Chrome\project (1)\Opencritic\OC.xlsx')
+data = pd.read_csv(r'E:\Chrome\project (1)\Opencritic\OC.csv', encoding="gbk")
 
 # %%[markdown]
 # # Linear Regression Model
@@ -96,7 +96,7 @@ data['score8'] = np.select(conditions, values)
 xcf = data[['platform', 'genre']]
 ycf = data['score8']
 
-xtraincf, xtestcf, ytraincf, ytestcf = train_test_split(xcf, ycf, test_size=0.2, random_state=2020)
+xtraincf, xtestcf, ytraincf, ytestcf = train_test_split(xcf, ycf, test_size=0.2, random_state=1234)
 
 scoreLogit = LogisticRegression()
 scoreLogitFit = scoreLogit.fit(xtraincf, ytraincf)
