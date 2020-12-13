@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC, LinearSVC
-from sklearn import neighbors 
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -88,22 +87,23 @@ print(vif) # No issues with multicollinearity
 
 # create a list of conditions for the score cutoff
 conditions = [
-    (df_gamespot['score'] < 8),
-    (df_gamespot['score'] >= 8)
+    (df_gamespot['score'] >= 1 ) & (df_gamespot['score'] < 5),
+    (df_gamespot['score'] >= 5 ) & (df_gamespot['score'] < 8),
+    (df_gamespot['score'] >= 8 )
     ]
 
 # create a list of the values we want to assign for each condition
-values = [0, 1]
+values = [1, 2, 3]
 
 # create a new column and use np.select to assign values to it using our lists as arguments
-df_gamespot['score8'] = np.select(conditions, values)
+df_gamespot['score_rank'] = np.select(conditions, values)
 
 # print(df_gamespot.score8.value_counts())
 
 #%%
 # Set dependent and independent variables
 xcf = df_gamespot[['platform_coded', 'genre_coded']]
-ycf = df_gamespot['score8']
+ycf = df_gamespot['score_rank']
 
 xtraincf, xtestcf, ytraincf, ytestcf = train_test_split(xcf, ycf, test_size = 0.2, random_state=2020)
 
@@ -250,22 +250,6 @@ print(f'Confusion matrix:\n {confusion_matrix(ytestcf, knnPredict)}'),
 #  [[1562  160]
 #  [ 797   87]]
 
-#%%
-def knn_comparison(data, k):
-    x = data[['platform_coded', 'genre_coded']].values
-    y = data['score8'].astype(int).values
-    clf = neighbors.KNeighborsClassifier(n_neighbors=k)
-    clf.fit(x, y)
-    # Plotting decision region
-    plot_decision_regions(x, y, clf=clf, legend=2)
-    # Adding axes annotations
-    plt.xlabel('X')
-    plt.ylabel('Y')
-    plt.title('Knn with K='+ str(k))
-    plt.show()
-
-for i in [1,5,7,20,30,40,80]:
-    knn_comparison(df_gamespot, i)
 # %% [markdown]
 # Decision Tree
 
