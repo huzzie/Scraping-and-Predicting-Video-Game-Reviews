@@ -87,22 +87,23 @@ print(vif) # No issues with multicollinearity
 
 # create a list of conditions for the score cutoff
 conditions = [
-    (df_gamespot['score'] < 8),
-    (df_gamespot['score'] > 7.9)
+    (df_gamespot['score'] >= 1 ) & (df_gamespot['score'] < 5),
+    (df_gamespot['score'] >= 5 ) & (df_gamespot['score'] < 8),
+    (df_gamespot['score'] >= 8 )
     ]
 
 # create a list of the values we want to assign for each condition
-values = [0, 1]
+values = [1, 2, 3]
 
 # create a new column and use np.select to assign values to it using our lists as arguments
-df_gamespot['score8'] = np.select(conditions, values)
+df_gamespot['score_rank'] = np.select(conditions, values)
 
 # print(df_gamespot.score8.value_counts())
 
 #%%
 # Set dependent and independent variables
 xcf = df_gamespot[['platform_coded', 'genre_coded']]
-ycf = df_gamespot['score8']
+ycf = df_gamespot['score_rank']
 
 xtraincf, xtestcf, ytraincf, ytestcf = train_test_split(xcf, ycf, test_size = 0.2, random_state=2020)
 
@@ -196,7 +197,6 @@ plt.show()
 # Poor model
 # No Skill: ROC AUC=0.500
 # Logistic: ROC AUC=0.547
-
 # %%
 precision, recall, thresholds = precision_recall_curve(ytestcf, scoreLogit.predict_proba(xtestcf)[:, 1]) 
 # retrieve probability of being 1(in second column of probs_y)
