@@ -9,9 +9,9 @@ import os
 os.getcwd()
 
 #%%
-gamespot_df = pd.read_csv('gamespot/gamespot_reviews.csv')
-metacritic_df = pd.read_csv('metacritic/total_metacritic_review.csv')
-opencritic_df = pd.read_csv('opencritic/OC2.csv')
+gamespot_df = pd.read_csv('gamespot_reviews.csv')
+metacritic_df = pd.read_csv('../metacritic/all_metacritics_reviews_updated.csv')
+opencritic_df = pd.read_csv('../opencritic/OC.csv')
 
 # Add site to each dataframe
 gamespot_df['site'] = 'gamespot'
@@ -26,6 +26,15 @@ all_reviews.drop(['Unnamed: 0', 'Unnamed: 0.1', 'nplatform', 'ngenre'], inplace=
 print(all_reviews.head())
 print(all_reviews.shape)
 print(all_reviews.site.value_counts())
+
+all_reviews.to_csv('all_reviews.csv')
+
+
+#%%
+
+####################################
+# for later use to clean on my own #
+####################################
 
 #%%
 
