@@ -1,4 +1,4 @@
-# Team-Amazing
+# Predicting Video Game Reviews
 
   As the new generation of consoles is among us, hundreds, if not thousands, of new (or remastered) games will be released in the coming years to keep gamers entertained. Our group is interested in using the ratings from popular websites for video game reviews for each genre of game on each of the current generation of platforms to predict the ratings of next generation’s games. 
   
